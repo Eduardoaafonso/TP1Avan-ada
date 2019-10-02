@@ -1,23 +1,21 @@
+#ifndef BEBIDA_H
+#define BEBIDA_H
 #include "Itens.h"
 
 using namespace std;
 
-#pragma once
-ref class Bebida:public Itens
-{
+class Bebida:public Itens{
 private:
 	string nome;
-	bool quente;
-	bool dieta;
+	bool diet;
 	bool gelado;
 
 public:
-	Bebida();
+	Bebida(bool gelado, bool diet, string nome);
 	~Bebida();
-
-	bool getQuente();
-	bool getDieta();
+	bool getDiet();
 	bool getGelado();
 	string getNome();
 };
 
+#endif

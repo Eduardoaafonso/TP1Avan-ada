@@ -2,8 +2,7 @@
 
 using namespace std;
 
-#pragma once
-ref class Lanche:public Itens
+class Lanche:public Itens
 {
 private:
 	string tipo;

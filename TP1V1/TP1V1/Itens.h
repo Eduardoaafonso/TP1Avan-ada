@@ -1,6 +1,8 @@
-#pragma once
-ref class Itens
-{
+#ifndef ITENS_H
+#define ITENS_H
+#include <string>
+
+class Itens{
 private: 
 	int tempoConf;
 	int tempoSepIng;
@@ -9,7 +11,7 @@ private:
 	int tempoEngarrafar;
 	int tempoTampar;
 	int static nPedidos;
-	static int nMaximo;
+	static const int nMaximo = 3;
 	bool pronto;
 
 public:
@@ -35,3 +37,4 @@ public:
 	
 };
 
+#endif
