@@ -72,6 +72,9 @@
     <ClInclude Include="Bebida.h" />
     <ClInclude Include="Itens.h" />
     <ClInclude Include="Lanche.h" />
+    <ClInclude Include="MyForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="Sobremesa.h" />
     <ClInclude Include="ThreadObject.h" />
   </ItemGroup>
@@ -79,9 +82,22 @@
     <ClCompile Include="Bebida.cpp" />
     <ClCompile Include="Itens.cpp" />
     <ClCompile Include="Lanche.cpp" />
+    <ClCompile Include="MyForm.cpp" />
     <ClCompile Include="Sobremesa.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="ThreadObject.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MyForm.resx">
+      <DependentUpon>MyForm.h</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

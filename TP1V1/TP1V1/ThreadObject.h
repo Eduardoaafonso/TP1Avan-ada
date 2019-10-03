@@ -15,7 +15,7 @@ using namespace System::Collections;
 using namespace System::Windows::Forms;
 using namespace System::Data;
 using namespace System::Drawing;
-using namespace Thread_Janela;
+using namespace TP1V1;
 
 typedef unsigned (WINAPI *PBEGINTHREADEX_THREADFUNC)(LPVOID lpThreadParameter);
 typedef unsigned *PBEGINTHREADEX_THREADID;
