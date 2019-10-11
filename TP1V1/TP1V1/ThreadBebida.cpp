@@ -1,6 +1,7 @@
 #include "ThreadBebida.h"
 
-ThreadBebida::ThreadBebida(MyForm^ mform, Button^ bcriar, Button^ bsuspender, Button^ bativar, Button^ bterminar) // Inicializa membros privados da classe
+ThreadBebida::ThreadBebida(MyForm^ mform, bool gelado, bool diet, string nome, int tempo1, int tempo2, int tempo3, int tempo4) 
+	: Bebida(gelado, diet, nome, tempo1, tempo2, tempo3, tempo4)// Inicializa membros privados da classe
 { 
 	
 	

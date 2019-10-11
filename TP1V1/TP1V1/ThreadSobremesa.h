@@ -28,7 +28,7 @@ typedef unsigned *PBEGINTHREADEX_THREADID;
 class ThreadSobremesa  : public Sobremesa
 {
 public:
-	ThreadSobremesa(MyForm^, Button^,Button^, Button^, Button^);		// Construtor
+	ThreadSobremesa(MyForm^ mform,string nome, bool gelado, bool diet, bool lactose, int tempo1, int tempo2, int tempo3, int tempo4);	// Construtor
 	void CreateThread();
 	void WaitForExit();
 	static DWORD WINAPI ThreadFunc(LPVOID param);

@@ -1,13 +1,10 @@
 #include "ThreadSobremesa.h"
 
-ThreadSobremesa::ThreadSobremesa(MyForm^ mform, Button^ bcriar, Button^ bsuspender, Button^ bativar, Button^ bterminar) // Inicializa membros privados da classe
+ThreadSobremesa::ThreadSobremesa(MyForm^ mform, string nome, bool gelado, bool diet, bool lactose, int tempo1, int tempo2, int tempo3, int tempo4) 
+	: Sobremesa(nome, gelado, diet, lactose, tempo1, tempo2, tempo3, tempo4)// Inicializa membros privados da classe
 { 
 	this->myform = mform;
-	this->buttonCriar = bcriar;
-	this->buttonSuspender = bsuspender;
-	this->buttonAtivar = bativar;
-	this->buttonTerminar = bterminar;
-	
+		
 	this->m_hThread = NULL;
 	this->m_ThreadId = 0;
 	this->KillThread = false;
