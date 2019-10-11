@@ -1,63 +1,53 @@
 #include "Itens.h"
 
-void Itens::setTempoConf(int tempo){
-	this->tempoConf = tempo;
+Itens::Itens(int tempo1, int tempo2, int tempo3, int tempo4){
+	this->tempoEtapa1 = tempo1;
+	this->tempoEtapa2 = tempo2;
+	this->tempoEtapa3 = tempo3;
+	this->tempoEtapa4 = tempo4;
 }
 
-void Itens::setTempoSepIng(int tempo){
-	this->tempoSepIng = tempo;
+Itens::~Itens(){
 }
 
-void Itens::setTempoPreparo(int tempo){
-	this->tempoPreparo = tempo;
+void Itens::setTempoEtapa1(int tempo){
+	this->tempoEtapa1 = tempo;
 }
 
-void Itens::setTempoEmbalar(int tempo){
-	this->tempoEmbalar = tempo;
+void Itens::setTempoEtapa2(int tempo){
+	this->tempoEtapa2 = tempo;
 }
 
-void Itens::setTempoEngarrafar(int tempo){
-	this->tempoEngarrafar = tempo;
+void Itens::setTempoEtapa3(int tempo){
+	this->tempoEtapa3 = tempo;
 }
 
-void Itens::setTempoTampar(int tempo){
-	this->tempoTampar = tempo;
+void Itens::setTempoEtapa4(int tempo){
+	this->tempoEtapa4 = tempo;
 }
 
 void Itens::setNPedidos(int pedidos){
 	this->nPedidos = pedidos;
 }
 
-void Itens::setNMaximo(int nMaximo){
-	this->nMaximo = 3;
-}
-
 void Itens::setPronto(bool pronto){
 	this->pronto = true;
 }
 
-int Itens::getTempoConf(){
-	return this->tempoConf;
+int Itens::getTempoEtapa1(){
+	return this->tempoEtapa1;
 }
 
-int Itens::getTempoSepIng(){
-	return this->tempoSepIng;
+int Itens::getTempoEtapa2(){
+	return this->tempoEtapa2;
 }
 
-int Itens::getTempoPreparo(){
-	return this->tempoPreparo;
+int Itens::getTempoEtapa3(){
+	return this->tempoEtapa3;
 }
 
-int Itens::getTempoEmbalar(){
-	return this->tempoEmbalar;
-}
-
-int Itens::getTempoEngarrafar(){
-	return this->tempoEngarrafar;
-}
-
-int Itens::getTempoTampar(){
-	return this->tempoTampar;
+int Itens::getTempoEtapa4(){
+	return this->tempoEtapa4;
 }
 
 int Itens::getNPedidos(){

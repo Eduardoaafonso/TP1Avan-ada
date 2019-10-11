@@ -70,13 +70,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Bebida.h" />
+    <ClInclude Include="ThreadSobremesa.h" />
+    <ClInclude Include="ThreadBebida.h" />
+    <ClInclude Include="ThreadLanche.h" />
     <ClInclude Include="Itens.h" />
     <ClInclude Include="Lanche.h" />
     <ClInclude Include="MyForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Sobremesa.h" />
-    <ClInclude Include="ThreadObject.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Bebida.cpp" />
@@ -85,7 +87,9 @@
     <ClCompile Include="MyForm.cpp" />
     <ClCompile Include="Sobremesa.cpp" />
     <ClCompile Include="Source.cpp" />
-    <ClCompile Include="ThreadObject.cpp" />
+    <ClCompile Include="ThreadSobremesa.cpp" />
+    <ClCompile Include="ThreadBebida.cpp" />
+    <ClCompile Include="ThreadLanche.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
