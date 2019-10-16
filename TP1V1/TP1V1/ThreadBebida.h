@@ -28,7 +28,7 @@ typedef unsigned *PBEGINTHREADEX_THREADID;
 class ThreadBebida : public Bebida
 {
 public:
-	ThreadBebida(MyForm^ mform,bool gelado, bool diet, string nome, int tempo1, int tempo2, int tempo3, int tempo4);		// Construtor
+	ThreadBebida(MyForm^ mform, string nome, bool gelado, bool diet, int tempo1, int tempo2, int tempo3, int tempo4);		// Construtor
 	void CreateThread();
 	void WaitForExit();
 	static DWORD WINAPI ThreadFunc(LPVOID param);

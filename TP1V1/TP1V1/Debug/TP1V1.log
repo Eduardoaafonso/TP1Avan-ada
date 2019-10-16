@@ -1,23 +1,8 @@
-﻿Build started 11/10/2019 15:53:07.
+﻿Build started 16/10/2019 19:15:37.
      1>Project "C:\Users\Fernando Elias\Documents\TP1_Avancada\Codigos\TP1V1\TP1V1\TP1V1.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib MyForm.cpp Source.cpp ThreadSobremesa.cpp ThreadBebida.cpp ThreadLanche.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib MyForm.cpp Source.cpp ThreadBebida.cpp
          MyForm.cpp
-     1>c:\users\fernando elias\documents\tp1_avancada\codigos\tp1v1\tp1v1\MyForm.h(439): error C2039: 'radioButton1_CheckedChanged' : is not a member of 'TP1V1::MyForm'
-                 c:\users\fernando elias\documents\tp1_avancada\codigos\tp1v1\tp1v1\MyForm.h(15) : see declaration of 'TP1V1::MyForm'
-     1>c:\users\fernando elias\documents\tp1_avancada\codigos\tp1v1\tp1v1\MyForm.h(439): error C2065: 'radioButton1_CheckedChanged' : undeclared identifier
-     1>c:\users\fernando elias\documents\tp1_avancada\codigos\tp1v1\tp1v1\MyForm.h(439): error C3350: 'System::EventHandler' : a delegate constructor expects 2 argument(s)
-     1>c:\users\fernando elias\documents\tp1_avancada\codigos\tp1v1\tp1v1\MyForm.h(696): error C2039: 'BotaoSobremesa_Click' : is not a member of 'TP1V1::MyForm'
-                 c:\users\fernando elias\documents\tp1_avancada\codigos\tp1v1\tp1v1\MyForm.h(15) : see declaration of 'TP1V1::MyForm'
-     1>c:\users\fernando elias\documents\tp1_avancada\codigos\tp1v1\tp1v1\MyForm.h(696): error C2065: 'BotaoSobremesa_Click' : undeclared identifier
-     1>c:\users\fernando elias\documents\tp1_avancada\codigos\tp1v1\tp1v1\MyForm.h(696): error C3350: 'System::EventHandler' : a delegate constructor expects 2 argument(s)
-     1>MyForm.cpp(21): error C2664: 'void std::queue<_Ty>::push(Lanche &&)' : cannot convert parameter 1 from 'Lanche (__cdecl *)(void)' to 'Lanche &&'
-                 with
-                 [
-                     _Ty=Lanche
-                 ]
-                 Reason: cannot convert from 'overloaded-function' to 'Lanche'
-                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
          Source.cpp
      1>Source.cpp(8): error C2679: binary '<<' : no operator found which takes a right-hand operand of type 'std::string' (or there is no acceptable conversion)
                  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(695): could be 'std::basic_ostream<_Elem,_Traits> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,const char *)'
@@ -184,44 +169,10 @@
                      _Traits=std::char_traits<char>
                  ]
                  while trying to match the argument list '(std::ostream, std::string)'
-         ThreadSobremesa.cpp
-     1>c:\users\fernando elias\documents\tp1_avancada\codigos\tp1v1\tp1v1\MyForm.h(439): error C2039: 'radioButton1_CheckedChanged' : is not a member of 'TP1V1::MyForm'
-                 c:\users\fernando elias\documents\tp1_avancada\codigos\tp1v1\tp1v1\MyForm.h(15) : see declaration of 'TP1V1::MyForm'
-     1>c:\users\fernando elias\documents\tp1_avancada\codigos\tp1v1\tp1v1\MyForm.h(439): error C2065: 'radioButton1_CheckedChanged' : undeclared identifier
-     1>c:\users\fernando elias\documents\tp1_avancada\codigos\tp1v1\tp1v1\MyForm.h(439): error C3350: 'System::EventHandler' : a delegate constructor expects 2 argument(s)
-     1>c:\users\fernando elias\documents\tp1_avancada\codigos\tp1v1\tp1v1\MyForm.h(696): error C2039: 'BotaoSobremesa_Click' : is not a member of 'TP1V1::MyForm'
-                 c:\users\fernando elias\documents\tp1_avancada\codigos\tp1v1\tp1v1\MyForm.h(15) : see declaration of 'TP1V1::MyForm'
-     1>c:\users\fernando elias\documents\tp1_avancada\codigos\tp1v1\tp1v1\MyForm.h(696): error C2065: 'BotaoSobremesa_Click' : undeclared identifier
-     1>c:\users\fernando elias\documents\tp1_avancada\codigos\tp1v1\tp1v1\MyForm.h(696): error C3350: 'System::EventHandler' : a delegate constructor expects 2 argument(s)
-     1>ThreadSobremesa.cpp(4): error C2512: 'Sobremesa' : no appropriate default constructor available
-     1>ThreadSobremesa.cpp(89): error C2039: 'UpdateRichText' : is not a member of 'TP1V1::MyForm'
-                 c:\users\fernando elias\documents\tp1_avancada\codigos\tp1v1\tp1v1\MyForm.h(15) : see declaration of 'TP1V1::MyForm'
          ThreadBebida.cpp
-     1>c:\users\fernando elias\documents\tp1_avancada\codigos\tp1v1\tp1v1\MyForm.h(439): error C2039: 'radioButton1_CheckedChanged' : is not a member of 'TP1V1::MyForm'
-                 c:\users\fernando elias\documents\tp1_avancada\codigos\tp1v1\tp1v1\MyForm.h(15) : see declaration of 'TP1V1::MyForm'
-     1>c:\users\fernando elias\documents\tp1_avancada\codigos\tp1v1\tp1v1\MyForm.h(439): error C2065: 'radioButton1_CheckedChanged' : undeclared identifier
-     1>c:\users\fernando elias\documents\tp1_avancada\codigos\tp1v1\tp1v1\MyForm.h(439): error C3350: 'System::EventHandler' : a delegate constructor expects 2 argument(s)
-     1>c:\users\fernando elias\documents\tp1_avancada\codigos\tp1v1\tp1v1\MyForm.h(696): error C2039: 'BotaoSobremesa_Click' : is not a member of 'TP1V1::MyForm'
-                 c:\users\fernando elias\documents\tp1_avancada\codigos\tp1v1\tp1v1\MyForm.h(15) : see declaration of 'TP1V1::MyForm'
-     1>c:\users\fernando elias\documents\tp1_avancada\codigos\tp1v1\tp1v1\MyForm.h(696): error C2065: 'BotaoSobremesa_Click' : undeclared identifier
-     1>c:\users\fernando elias\documents\tp1_avancada\codigos\tp1v1\tp1v1\MyForm.h(696): error C3350: 'System::EventHandler' : a delegate constructor expects 2 argument(s)
-     1>ThreadBebida.cpp(4): error C2512: 'Bebida' : no appropriate default constructor available
-     1>ThreadBebida.cpp(87): error C2039: 'UpdateRichText' : is not a member of 'TP1V1::MyForm'
-                 c:\users\fernando elias\documents\tp1_avancada\codigos\tp1v1\tp1v1\MyForm.h(15) : see declaration of 'TP1V1::MyForm'
-         ThreadLanche.cpp
-     1>c:\users\fernando elias\documents\tp1_avancada\codigos\tp1v1\tp1v1\MyForm.h(439): error C2039: 'radioButton1_CheckedChanged' : is not a member of 'TP1V1::MyForm'
-                 c:\users\fernando elias\documents\tp1_avancada\codigos\tp1v1\tp1v1\MyForm.h(15) : see declaration of 'TP1V1::MyForm'
-     1>c:\users\fernando elias\documents\tp1_avancada\codigos\tp1v1\tp1v1\MyForm.h(439): error C2065: 'radioButton1_CheckedChanged' : undeclared identifier
-     1>c:\users\fernando elias\documents\tp1_avancada\codigos\tp1v1\tp1v1\MyForm.h(439): error C3350: 'System::EventHandler' : a delegate constructor expects 2 argument(s)
-     1>c:\users\fernando elias\documents\tp1_avancada\codigos\tp1v1\tp1v1\MyForm.h(696): error C2039: 'BotaoSobremesa_Click' : is not a member of 'TP1V1::MyForm'
-                 c:\users\fernando elias\documents\tp1_avancada\codigos\tp1v1\tp1v1\MyForm.h(15) : see declaration of 'TP1V1::MyForm'
-     1>c:\users\fernando elias\documents\tp1_avancada\codigos\tp1v1\tp1v1\MyForm.h(696): error C2065: 'BotaoSobremesa_Click' : undeclared identifier
-     1>c:\users\fernando elias\documents\tp1_avancada\codigos\tp1v1\tp1v1\MyForm.h(696): error C3350: 'System::EventHandler' : a delegate constructor expects 2 argument(s)
-     1>ThreadLanche.cpp(86): error C2039: 'UpdateRichText' : is not a member of 'TP1V1::MyForm'
-                 c:\users\fernando elias\documents\tp1_avancada\codigos\tp1v1\tp1v1\MyForm.h(15) : see declaration of 'TP1V1::MyForm'
          Generating Code...
      1>Done Building Project "C:\Users\Fernando Elias\Documents\TP1_Avancada\Codigos\TP1V1\TP1V1\TP1V1.vcxproj" (Build target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:04.89
+Time Elapsed 00:00:04.38
