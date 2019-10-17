@@ -40,7 +40,7 @@ namespace TP1V1 {
 
 
 	private: System::Windows::Forms::RichTextBox^  richTextBox1;
-	private: System::Windows::Forms::Label^  label2;
+
 	private: System::Windows::Forms::Label^  label1;
 
 
@@ -50,8 +50,8 @@ namespace TP1V1 {
 
 
 
-	private: System::Windows::Forms::Label^  label5;
-	private: System::Windows::Forms::Label^  label3;
+
+
 	private: System::Windows::Forms::Label^  label4;
 
 
@@ -93,40 +93,40 @@ namespace TP1V1 {
 
 
 	private: System::Windows::Forms::GroupBox^  groupBox6;
-	private: System::Windows::Forms::RadioButton^  LancheNVeg;
 
 
 
 
 
 
-	private: System::Windows::Forms::RadioButton^  BebidaNDiet;
 
 
-	private: System::Windows::Forms::RadioButton^  BebidaNGelada;
-	private: System::Windows::Forms::RadioButton^  BebidaDiet;
 
 
-	private: System::Windows::Forms::RadioButton^  BebidaGelada;
 
 
-	private: System::Windows::Forms::RadioButton^  SobremesaNLac;
 
 
-	private: System::Windows::Forms::RadioButton^  SobremesaLac;
 
-	private: System::Windows::Forms::RadioButton^  SobremesaNDiet;
 
-	private: System::Windows::Forms::RadioButton^  SobremesaDiet;
 
-private: System::Windows::Forms::RadioButton^  SobremesaNGelada;
 
-private: System::Windows::Forms::RadioButton^  SobremesaGelada;
 
-	private: System::Windows::Forms::Label^  label14;
-	private: System::Windows::Forms::Label^  label15;
+
+
+
+
+
+
+
+
+
+
+
+
+
 	private: System::Windows::Forms::Label^  label16;
-	private: System::Windows::Forms::Label^  label17;
+
 
 
 	private: System::Windows::Forms::GroupBox^  groupBox1;
@@ -160,7 +160,7 @@ private: System::Windows::Forms::RadioButton^  SobremesaGelada;
 	private: System::Windows::Forms::Label^  label20;
 	private: System::Windows::Forms::Label^  label21;
 
-private: System::Windows::Forms::RadioButton^  LancheVeg;
+
 
 private: System::Windows::Forms::TextBox^  tempo4Lanche;
 private: System::Windows::Forms::TextBox^  tempo3Lanche;
@@ -180,6 +180,24 @@ private: System::Windows::Forms::Button^  botaoBebida;
 private: System::Windows::Forms::Button^  botaoSobremesa;
 private: System::Windows::Forms::TextBox^  nomeBebida;
 private: System::Windows::Forms::TextBox^  nomeSobremesa;
+private: System::Windows::Forms::GroupBox^  groupBox7;
+private: System::Windows::Forms::RadioButton^  bebidaNDiet;
+private: System::Windows::Forms::RadioButton^  bebidaDiet;
+private: System::Windows::Forms::GroupBox^  groupBox8;
+private: System::Windows::Forms::RadioButton^  bebidaNGelada;
+private: System::Windows::Forms::RadioButton^  bebidaGelada;
+private: System::Windows::Forms::GroupBox^  groupBox11;
+private: System::Windows::Forms::RadioButton^  sobremesaNLac;
+private: System::Windows::Forms::RadioButton^  sobremesaLac;
+private: System::Windows::Forms::GroupBox^  groupBox10;
+private: System::Windows::Forms::RadioButton^  sobremesaNDiet;
+private: System::Windows::Forms::RadioButton^  sobremesaDiet;
+private: System::Windows::Forms::GroupBox^  groupBox9;
+private: System::Windows::Forms::RadioButton^  sobremesaNGelada;
+private: System::Windows::Forms::RadioButton^  sobremesaGelada;
+private: System::Windows::Forms::GroupBox^  groupBox12;
+private: System::Windows::Forms::RadioButton^  lancheNVeg;
+private: System::Windows::Forms::RadioButton^  lancheVeg;
 
 
 
@@ -214,16 +232,12 @@ private: System::Windows::Forms::TextBox^  nomeSobremesa;
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			this->label2 = (gcnew System::Windows::Forms::Label());
 			this->label1 = (gcnew System::Windows::Forms::Label());
-			this->label5 = (gcnew System::Windows::Forms::Label());
-			this->label3 = (gcnew System::Windows::Forms::Label());
 			this->label4 = (gcnew System::Windows::Forms::Label());
 			this->richTextBox1 = (gcnew System::Windows::Forms::RichTextBox());
 			this->groupBox4 = (gcnew System::Windows::Forms::GroupBox());
 			this->botaoLanche = (gcnew System::Windows::Forms::Button());
 			this->nomeLanche = (gcnew System::Windows::Forms::TextBox());
-			this->LancheVeg = (gcnew System::Windows::Forms::RadioButton());
 			this->groupBox1 = (gcnew System::Windows::Forms::GroupBox());
 			this->tempo4Lanche = (gcnew System::Windows::Forms::TextBox());
 			this->tempo3Lanche = (gcnew System::Windows::Forms::TextBox());
@@ -233,8 +247,8 @@ private: System::Windows::Forms::TextBox^  nomeSobremesa;
 			this->label9 = (gcnew System::Windows::Forms::Label());
 			this->label8 = (gcnew System::Windows::Forms::Label());
 			this->label7 = (gcnew System::Windows::Forms::Label());
-			this->LancheNVeg = (gcnew System::Windows::Forms::RadioButton());
 			this->groupBox5 = (gcnew System::Windows::Forms::GroupBox());
+			this->nomeBebida = (gcnew System::Windows::Forms::TextBox());
 			this->botaoBebida = (gcnew System::Windows::Forms::Button());
 			this->groupBox2 = (gcnew System::Windows::Forms::GroupBox());
 			this->tempo4Bebida = (gcnew System::Windows::Forms::TextBox());
@@ -245,11 +259,8 @@ private: System::Windows::Forms::TextBox^  nomeSobremesa;
 			this->label29 = (gcnew System::Windows::Forms::Label());
 			this->label27 = (gcnew System::Windows::Forms::Label());
 			this->label28 = (gcnew System::Windows::Forms::Label());
-			this->BebidaNDiet = (gcnew System::Windows::Forms::RadioButton());
-			this->BebidaNGelada = (gcnew System::Windows::Forms::RadioButton());
-			this->BebidaDiet = (gcnew System::Windows::Forms::RadioButton());
-			this->BebidaGelada = (gcnew System::Windows::Forms::RadioButton());
 			this->groupBox6 = (gcnew System::Windows::Forms::GroupBox());
+			this->nomeSobremesa = (gcnew System::Windows::Forms::TextBox());
 			this->botaoSobremesa = (gcnew System::Windows::Forms::Button());
 			this->groupBox3 = (gcnew System::Windows::Forms::GroupBox());
 			this->tempo4Sobremesa = (gcnew System::Windows::Forms::TextBox());
@@ -260,34 +271,38 @@ private: System::Windows::Forms::TextBox^  nomeSobremesa;
 			this->label19 = (gcnew System::Windows::Forms::Label());
 			this->label20 = (gcnew System::Windows::Forms::Label());
 			this->label21 = (gcnew System::Windows::Forms::Label());
-			this->SobremesaNLac = (gcnew System::Windows::Forms::RadioButton());
-			this->SobremesaLac = (gcnew System::Windows::Forms::RadioButton());
-			this->SobremesaNDiet = (gcnew System::Windows::Forms::RadioButton());
-			this->SobremesaDiet = (gcnew System::Windows::Forms::RadioButton());
-			this->SobremesaNGelada = (gcnew System::Windows::Forms::RadioButton());
-			this->SobremesaGelada = (gcnew System::Windows::Forms::RadioButton());
-			this->label14 = (gcnew System::Windows::Forms::Label());
-			this->label15 = (gcnew System::Windows::Forms::Label());
 			this->label16 = (gcnew System::Windows::Forms::Label());
-			this->label17 = (gcnew System::Windows::Forms::Label());
-			this->nomeBebida = (gcnew System::Windows::Forms::TextBox());
-			this->nomeSobremesa = (gcnew System::Windows::Forms::TextBox());
+			this->groupBox8 = (gcnew System::Windows::Forms::GroupBox());
+			this->bebidaNGelada = (gcnew System::Windows::Forms::RadioButton());
+			this->bebidaGelada = (gcnew System::Windows::Forms::RadioButton());
+			this->groupBox7 = (gcnew System::Windows::Forms::GroupBox());
+			this->bebidaNDiet = (gcnew System::Windows::Forms::RadioButton());
+			this->bebidaDiet = (gcnew System::Windows::Forms::RadioButton());
+			this->groupBox9 = (gcnew System::Windows::Forms::GroupBox());
+			this->sobremesaNGelada = (gcnew System::Windows::Forms::RadioButton());
+			this->sobremesaGelada = (gcnew System::Windows::Forms::RadioButton());
+			this->groupBox10 = (gcnew System::Windows::Forms::GroupBox());
+			this->sobremesaNDiet = (gcnew System::Windows::Forms::RadioButton());
+			this->sobremesaDiet = (gcnew System::Windows::Forms::RadioButton());
+			this->groupBox11 = (gcnew System::Windows::Forms::GroupBox());
+			this->sobremesaNLac = (gcnew System::Windows::Forms::RadioButton());
+			this->sobremesaLac = (gcnew System::Windows::Forms::RadioButton());
+			this->groupBox12 = (gcnew System::Windows::Forms::GroupBox());
+			this->lancheNVeg = (gcnew System::Windows::Forms::RadioButton());
+			this->lancheVeg = (gcnew System::Windows::Forms::RadioButton());
 			this->groupBox4->SuspendLayout();
 			this->groupBox1->SuspendLayout();
 			this->groupBox5->SuspendLayout();
 			this->groupBox2->SuspendLayout();
 			this->groupBox6->SuspendLayout();
 			this->groupBox3->SuspendLayout();
+			this->groupBox8->SuspendLayout();
+			this->groupBox7->SuspendLayout();
+			this->groupBox9->SuspendLayout();
+			this->groupBox10->SuspendLayout();
+			this->groupBox11->SuspendLayout();
+			this->groupBox12->SuspendLayout();
 			this->SuspendLayout();
-			// 
-			// label2
-			// 
-			this->label2->AutoSize = true;
-			this->label2->Location = System::Drawing::Point(263, 52);
-			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(70, 13);
-			this->label2->TabIndex = 4;
-			this->label2->Text = L"Vegetariano\?";
 			// 
 			// label1
 			// 
@@ -297,24 +312,6 @@ private: System::Windows::Forms::TextBox^  nomeSobremesa;
 			this->label1->Size = System::Drawing::Size(35, 13);
 			this->label1->TabIndex = 3;
 			this->label1->Text = L"Nome";
-			// 
-			// label5
-			// 
-			this->label5->AutoSize = true;
-			this->label5->Location = System::Drawing::Point(263, 80);
-			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(32, 13);
-			this->label5->TabIndex = 9;
-			this->label5->Text = L"Diet\?";
-			// 
-			// label3
-			// 
-			this->label3->AutoSize = true;
-			this->label3->Location = System::Drawing::Point(263, 53);
-			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(47, 13);
-			this->label3->TabIndex = 8;
-			this->label3->Text = L"Gelada\?";
 			// 
 			// label4
 			// 
@@ -335,12 +332,10 @@ private: System::Windows::Forms::TextBox^  nomeSobremesa;
 			// 
 			// groupBox4
 			// 
+			this->groupBox4->Controls->Add(this->groupBox12);
 			this->groupBox4->Controls->Add(this->botaoLanche);
 			this->groupBox4->Controls->Add(this->nomeLanche);
-			this->groupBox4->Controls->Add(this->LancheVeg);
 			this->groupBox4->Controls->Add(this->groupBox1);
-			this->groupBox4->Controls->Add(this->LancheNVeg);
-			this->groupBox4->Controls->Add(this->label2);
 			this->groupBox4->Controls->Add(this->label1);
 			this->groupBox4->Location = System::Drawing::Point(401, 2);
 			this->groupBox4->Name = L"groupBox4";
@@ -365,17 +360,6 @@ private: System::Windows::Forms::TextBox^  nomeSobremesa;
 			this->nomeLanche->Name = L"nomeLanche";
 			this->nomeLanche->Size = System::Drawing::Size(147, 20);
 			this->nomeLanche->TabIndex = 27;
-			// 
-			// LancheVeg
-			// 
-			this->LancheVeg->AutoSize = true;
-			this->LancheVeg->Location = System::Drawing::Point(348, 50);
-			this->LancheVeg->Name = L"LancheVeg";
-			this->LancheVeg->Size = System::Drawing::Size(42, 17);
-			this->LancheVeg->TabIndex = 33;
-			this->LancheVeg->TabStop = true;
-			this->LancheVeg->Text = L"Sim";
-			this->LancheVeg->UseVisualStyleBackColor = true;
 			// 
 			// groupBox1
 			// 
@@ -458,28 +442,13 @@ private: System::Windows::Forms::TextBox^  nomeSobremesa;
 			this->label7->TabIndex = 20;
 			this->label7->Text = L"Separar Ingredientes Lanche";
 			// 
-			// LancheNVeg
-			// 
-			this->LancheNVeg->AutoSize = true;
-			this->LancheNVeg->Location = System::Drawing::Point(409, 50);
-			this->LancheNVeg->Name = L"LancheNVeg";
-			this->LancheNVeg->Size = System::Drawing::Size(45, 17);
-			this->LancheNVeg->TabIndex = 14;
-			this->LancheNVeg->TabStop = true;
-			this->LancheNVeg->Text = L"Não";
-			this->LancheNVeg->UseVisualStyleBackColor = true;
-			// 
 			// groupBox5
 			// 
+			this->groupBox5->Controls->Add(this->groupBox7);
+			this->groupBox5->Controls->Add(this->groupBox8);
 			this->groupBox5->Controls->Add(this->nomeBebida);
 			this->groupBox5->Controls->Add(this->botaoBebida);
 			this->groupBox5->Controls->Add(this->groupBox2);
-			this->groupBox5->Controls->Add(this->BebidaNDiet);
-			this->groupBox5->Controls->Add(this->BebidaNGelada);
-			this->groupBox5->Controls->Add(this->BebidaDiet);
-			this->groupBox5->Controls->Add(this->BebidaGelada);
-			this->groupBox5->Controls->Add(this->label5);
-			this->groupBox5->Controls->Add(this->label3);
 			this->groupBox5->Controls->Add(this->label4);
 			this->groupBox5->Location = System::Drawing::Point(401, 165);
 			this->groupBox5->Name = L"groupBox5";
@@ -488,9 +457,16 @@ private: System::Windows::Forms::TextBox^  nomeSobremesa;
 			this->groupBox5->TabStop = false;
 			this->groupBox5->Text = L"Bebida";
 			// 
+			// nomeBebida
+			// 
+			this->nomeBebida->Location = System::Drawing::Point(342, 17);
+			this->nomeBebida->Name = L"nomeBebida";
+			this->nomeBebida->Size = System::Drawing::Size(147, 20);
+			this->nomeBebida->TabIndex = 35;
+			// 
 			// botaoBebida
 			// 
-			this->botaoBebida->Location = System::Drawing::Point(279, 119);
+			this->botaoBebida->Location = System::Drawing::Point(279, 128);
 			this->botaoBebida->Name = L"botaoBebida";
 			this->botaoBebida->Size = System::Drawing::Size(157, 23);
 			this->botaoBebida->TabIndex = 35;
@@ -579,75 +555,32 @@ private: System::Windows::Forms::TextBox^  nomeSobremesa;
 			this->label28->TabIndex = 18;
 			this->label28->Text = L"Engarrafar Bebida";
 			// 
-			// BebidaNDiet
-			// 
-			this->BebidaNDiet->AutoSize = true;
-			this->BebidaNDiet->Location = System::Drawing::Point(409, 80);
-			this->BebidaNDiet->Name = L"BebidaNDiet";
-			this->BebidaNDiet->Size = System::Drawing::Size(45, 17);
-			this->BebidaNDiet->TabIndex = 16;
-			this->BebidaNDiet->TabStop = true;
-			this->BebidaNDiet->Text = L"Não";
-			this->BebidaNDiet->UseVisualStyleBackColor = true;
-			// 
-			// BebidaNGelada
-			// 
-			this->BebidaNGelada->AutoSize = true;
-			this->BebidaNGelada->Location = System::Drawing::Point(409, 49);
-			this->BebidaNGelada->Name = L"BebidaNGelada";
-			this->BebidaNGelada->Size = System::Drawing::Size(45, 17);
-			this->BebidaNGelada->TabIndex = 16;
-			this->BebidaNGelada->TabStop = true;
-			this->BebidaNGelada->Text = L"Não";
-			this->BebidaNGelada->UseVisualStyleBackColor = true;
-			// 
-			// BebidaDiet
-			// 
-			this->BebidaDiet->AutoSize = true;
-			this->BebidaDiet->Location = System::Drawing::Point(348, 80);
-			this->BebidaDiet->Name = L"BebidaDiet";
-			this->BebidaDiet->Size = System::Drawing::Size(42, 17);
-			this->BebidaDiet->TabIndex = 15;
-			this->BebidaDiet->TabStop = true;
-			this->BebidaDiet->Text = L"Sim";
-			this->BebidaDiet->UseVisualStyleBackColor = true;
-			// 
-			// BebidaGelada
-			// 
-			this->BebidaGelada->AutoSize = true;
-			this->BebidaGelada->Location = System::Drawing::Point(348, 51);
-			this->BebidaGelada->Name = L"BebidaGelada";
-			this->BebidaGelada->Size = System::Drawing::Size(42, 17);
-			this->BebidaGelada->TabIndex = 15;
-			this->BebidaGelada->TabStop = true;
-			this->BebidaGelada->Text = L"Sim";
-			this->BebidaGelada->UseVisualStyleBackColor = true;
-			// 
 			// groupBox6
 			// 
+			this->groupBox6->Controls->Add(this->groupBox11);
+			this->groupBox6->Controls->Add(this->groupBox10);
+			this->groupBox6->Controls->Add(this->groupBox9);
 			this->groupBox6->Controls->Add(this->nomeSobremesa);
 			this->groupBox6->Controls->Add(this->botaoSobremesa);
 			this->groupBox6->Controls->Add(this->groupBox3);
-			this->groupBox6->Controls->Add(this->SobremesaNLac);
-			this->groupBox6->Controls->Add(this->SobremesaLac);
-			this->groupBox6->Controls->Add(this->SobremesaNDiet);
-			this->groupBox6->Controls->Add(this->SobremesaDiet);
-			this->groupBox6->Controls->Add(this->SobremesaNGelada);
-			this->groupBox6->Controls->Add(this->SobremesaGelada);
-			this->groupBox6->Controls->Add(this->label14);
-			this->groupBox6->Controls->Add(this->label15);
 			this->groupBox6->Controls->Add(this->label16);
-			this->groupBox6->Controls->Add(this->label17);
 			this->groupBox6->Location = System::Drawing::Point(401, 328);
 			this->groupBox6->Name = L"groupBox6";
-			this->groupBox6->Size = System::Drawing::Size(505, 164);
+			this->groupBox6->Size = System::Drawing::Size(514, 185);
 			this->groupBox6->TabIndex = 31;
 			this->groupBox6->TabStop = false;
 			this->groupBox6->Text = L"Sobremesa";
 			// 
+			// nomeSobremesa
+			// 
+			this->nomeSobremesa->Location = System::Drawing::Point(342, 24);
+			this->nomeSobremesa->Name = L"nomeSobremesa";
+			this->nomeSobremesa->Size = System::Drawing::Size(147, 20);
+			this->nomeSobremesa->TabIndex = 36;
+			// 
 			// botaoSobremesa
 			// 
-			this->botaoSobremesa->Location = System::Drawing::Point(279, 132);
+			this->botaoSobremesa->Location = System::Drawing::Point(279, 150);
 			this->botaoSobremesa->Name = L"botaoSobremesa";
 			this->botaoSobremesa->Size = System::Drawing::Size(157, 23);
 			this->botaoSobremesa->TabIndex = 36;
@@ -736,90 +669,6 @@ private: System::Windows::Forms::TextBox^  nomeSobremesa;
 			this->label21->TabIndex = 20;
 			this->label21->Text = L"Separar Ingredientes Lanche";
 			// 
-			// SobremesaNLac
-			// 
-			this->SobremesaNLac->AutoSize = true;
-			this->SobremesaNLac->Location = System::Drawing::Point(409, 100);
-			this->SobremesaNLac->Name = L"SobremesaNLac";
-			this->SobremesaNLac->Size = System::Drawing::Size(45, 17);
-			this->SobremesaNLac->TabIndex = 42;
-			this->SobremesaNLac->TabStop = true;
-			this->SobremesaNLac->Text = L"Não";
-			this->SobremesaNLac->UseVisualStyleBackColor = true;
-			// 
-			// SobremesaLac
-			// 
-			this->SobremesaLac->AutoSize = true;
-			this->SobremesaLac->Location = System::Drawing::Point(348, 101);
-			this->SobremesaLac->Name = L"SobremesaLac";
-			this->SobremesaLac->Size = System::Drawing::Size(42, 17);
-			this->SobremesaLac->TabIndex = 41;
-			this->SobremesaLac->TabStop = true;
-			this->SobremesaLac->Text = L"Sim";
-			this->SobremesaLac->UseVisualStyleBackColor = true;
-			// 
-			// SobremesaNDiet
-			// 
-			this->SobremesaNDiet->AutoSize = true;
-			this->SobremesaNDiet->Location = System::Drawing::Point(409, 77);
-			this->SobremesaNDiet->Name = L"SobremesaNDiet";
-			this->SobremesaNDiet->Size = System::Drawing::Size(45, 17);
-			this->SobremesaNDiet->TabIndex = 40;
-			this->SobremesaNDiet->TabStop = true;
-			this->SobremesaNDiet->Text = L"Não";
-			this->SobremesaNDiet->UseVisualStyleBackColor = true;
-			// 
-			// SobremesaDiet
-			// 
-			this->SobremesaDiet->AutoSize = true;
-			this->SobremesaDiet->Location = System::Drawing::Point(348, 77);
-			this->SobremesaDiet->Name = L"SobremesaDiet";
-			this->SobremesaDiet->Size = System::Drawing::Size(42, 17);
-			this->SobremesaDiet->TabIndex = 39;
-			this->SobremesaDiet->TabStop = true;
-			this->SobremesaDiet->Text = L"Sim";
-			this->SobremesaDiet->UseVisualStyleBackColor = true;
-			// 
-			// SobremesaNGelada
-			// 
-			this->SobremesaNGelada->AutoSize = true;
-			this->SobremesaNGelada->Location = System::Drawing::Point(409, 56);
-			this->SobremesaNGelada->Name = L"SobremesaNGelada";
-			this->SobremesaNGelada->Size = System::Drawing::Size(45, 17);
-			this->SobremesaNGelada->TabIndex = 34;
-			this->SobremesaNGelada->TabStop = true;
-			this->SobremesaNGelada->Text = L"Não";
-			this->SobremesaNGelada->UseVisualStyleBackColor = true;
-			// 
-			// SobremesaGelada
-			// 
-			this->SobremesaGelada->AutoSize = true;
-			this->SobremesaGelada->Location = System::Drawing::Point(348, 54);
-			this->SobremesaGelada->Name = L"SobremesaGelada";
-			this->SobremesaGelada->Size = System::Drawing::Size(42, 17);
-			this->SobremesaGelada->TabIndex = 33;
-			this->SobremesaGelada->TabStop = true;
-			this->SobremesaGelada->Text = L"Sim";
-			this->SobremesaGelada->UseVisualStyleBackColor = true;
-			// 
-			// label14
-			// 
-			this->label14->AutoSize = true;
-			this->label14->Location = System::Drawing::Point(263, 103);
-			this->label14->Name = L"label14";
-			this->label14->Size = System::Drawing::Size(51, 13);
-			this->label14->TabIndex = 38;
-			this->label14->Text = L"Lactose\?";
-			// 
-			// label15
-			// 
-			this->label15->AutoSize = true;
-			this->label15->Location = System::Drawing::Point(263, 79);
-			this->label15->Name = L"label15";
-			this->label15->Size = System::Drawing::Size(32, 13);
-			this->label15->TabIndex = 37;
-			this->label15->Text = L"Diet\?";
-			// 
 			// label16
 			// 
 			this->label16->AutoSize = true;
@@ -829,34 +678,209 @@ private: System::Windows::Forms::TextBox^  nomeSobremesa;
 			this->label16->TabIndex = 35;
 			this->label16->Text = L"Nome";
 			// 
-			// label17
+			// groupBox8
 			// 
-			this->label17->AutoSize = true;
-			this->label17->Location = System::Drawing::Point(263, 56);
-			this->label17->Name = L"label17";
-			this->label17->Size = System::Drawing::Size(47, 13);
-			this->label17->TabIndex = 36;
-			this->label17->Text = L"Gelada\?";
+			this->groupBox8->Controls->Add(this->bebidaNGelada);
+			this->groupBox8->Controls->Add(this->bebidaGelada);
+			this->groupBox8->Location = System::Drawing::Point(266, 43);
+			this->groupBox8->Name = L"groupBox8";
+			this->groupBox8->Size = System::Drawing::Size(201, 34);
+			this->groupBox8->TabIndex = 33;
+			this->groupBox8->TabStop = false;
+			this->groupBox8->Text = L"Gelada\?";
 			// 
-			// nomeBebida
+			// bebidaNGelada
 			// 
-			this->nomeBebida->Location = System::Drawing::Point(342, 17);
-			this->nomeBebida->Name = L"nomeBebida";
-			this->nomeBebida->Size = System::Drawing::Size(147, 20);
-			this->nomeBebida->TabIndex = 35;
+			this->bebidaNGelada->AutoSize = true;
+			this->bebidaNGelada->Location = System::Drawing::Point(143, 11);
+			this->bebidaNGelada->Name = L"bebidaNGelada";
+			this->bebidaNGelada->Size = System::Drawing::Size(45, 17);
+			this->bebidaNGelada->TabIndex = 16;
+			this->bebidaNGelada->TabStop = true;
+			this->bebidaNGelada->Text = L"Não";
+			this->bebidaNGelada->UseVisualStyleBackColor = true;
 			// 
-			// nomeSobremesa
+			// bebidaGelada
 			// 
-			this->nomeSobremesa->Location = System::Drawing::Point(342, 24);
-			this->nomeSobremesa->Name = L"nomeSobremesa";
-			this->nomeSobremesa->Size = System::Drawing::Size(147, 20);
-			this->nomeSobremesa->TabIndex = 36;
+			this->bebidaGelada->AutoSize = true;
+			this->bebidaGelada->Location = System::Drawing::Point(82, 11);
+			this->bebidaGelada->Name = L"bebidaGelada";
+			this->bebidaGelada->Size = System::Drawing::Size(42, 17);
+			this->bebidaGelada->TabIndex = 15;
+			this->bebidaGelada->TabStop = true;
+			this->bebidaGelada->Text = L"Sim";
+			this->bebidaGelada->UseVisualStyleBackColor = true;
+			// 
+			// groupBox7
+			// 
+			this->groupBox7->Controls->Add(this->bebidaNDiet);
+			this->groupBox7->Controls->Add(this->bebidaDiet);
+			this->groupBox7->Location = System::Drawing::Point(266, 88);
+			this->groupBox7->Name = L"groupBox7";
+			this->groupBox7->Size = System::Drawing::Size(201, 34);
+			this->groupBox7->TabIndex = 34;
+			this->groupBox7->TabStop = false;
+			this->groupBox7->Text = L"Diet\?";
+			// 
+			// bebidaNDiet
+			// 
+			this->bebidaNDiet->AutoSize = true;
+			this->bebidaNDiet->Location = System::Drawing::Point(143, 11);
+			this->bebidaNDiet->Name = L"bebidaNDiet";
+			this->bebidaNDiet->Size = System::Drawing::Size(45, 17);
+			this->bebidaNDiet->TabIndex = 16;
+			this->bebidaNDiet->TabStop = true;
+			this->bebidaNDiet->Text = L"Não";
+			this->bebidaNDiet->UseVisualStyleBackColor = true;
+			// 
+			// bebidaDiet
+			// 
+			this->bebidaDiet->AutoSize = true;
+			this->bebidaDiet->Location = System::Drawing::Point(82, 11);
+			this->bebidaDiet->Name = L"bebidaDiet";
+			this->bebidaDiet->Size = System::Drawing::Size(42, 17);
+			this->bebidaDiet->TabIndex = 15;
+			this->bebidaDiet->TabStop = true;
+			this->bebidaDiet->Text = L"Sim";
+			this->bebidaDiet->UseVisualStyleBackColor = true;
+			// 
+			// groupBox9
+			// 
+			this->groupBox9->Controls->Add(this->sobremesaNGelada);
+			this->groupBox9->Controls->Add(this->sobremesaGelada);
+			this->groupBox9->Location = System::Drawing::Point(266, 50);
+			this->groupBox9->Name = L"groupBox9";
+			this->groupBox9->Size = System::Drawing::Size(201, 34);
+			this->groupBox9->TabIndex = 34;
+			this->groupBox9->TabStop = false;
+			this->groupBox9->Text = L"Gelada\?";
+			// 
+			// sobremesaNGelada
+			// 
+			this->sobremesaNGelada->AutoSize = true;
+			this->sobremesaNGelada->Location = System::Drawing::Point(143, 11);
+			this->sobremesaNGelada->Name = L"sobremesaNGelada";
+			this->sobremesaNGelada->Size = System::Drawing::Size(45, 17);
+			this->sobremesaNGelada->TabIndex = 16;
+			this->sobremesaNGelada->TabStop = true;
+			this->sobremesaNGelada->Text = L"Não";
+			this->sobremesaNGelada->UseVisualStyleBackColor = true;
+			// 
+			// sobremesaGelada
+			// 
+			this->sobremesaGelada->AutoSize = true;
+			this->sobremesaGelada->Location = System::Drawing::Point(82, 11);
+			this->sobremesaGelada->Name = L"sobremesaGelada";
+			this->sobremesaGelada->Size = System::Drawing::Size(42, 17);
+			this->sobremesaGelada->TabIndex = 15;
+			this->sobremesaGelada->TabStop = true;
+			this->sobremesaGelada->Text = L"Sim";
+			this->sobremesaGelada->UseVisualStyleBackColor = true;
+			// 
+			// groupBox10
+			// 
+			this->groupBox10->Controls->Add(this->sobremesaNDiet);
+			this->groupBox10->Controls->Add(this->sobremesaDiet);
+			this->groupBox10->Location = System::Drawing::Point(266, 79);
+			this->groupBox10->Name = L"groupBox10";
+			this->groupBox10->Size = System::Drawing::Size(201, 34);
+			this->groupBox10->TabIndex = 34;
+			this->groupBox10->TabStop = false;
+			this->groupBox10->Text = L"Diet";
+			// 
+			// sobremesaNDiet
+			// 
+			this->sobremesaNDiet->AutoSize = true;
+			this->sobremesaNDiet->Location = System::Drawing::Point(143, 11);
+			this->sobremesaNDiet->Name = L"sobremesaNDiet";
+			this->sobremesaNDiet->Size = System::Drawing::Size(45, 17);
+			this->sobremesaNDiet->TabIndex = 16;
+			this->sobremesaNDiet->TabStop = true;
+			this->sobremesaNDiet->Text = L"Não";
+			this->sobremesaNDiet->UseVisualStyleBackColor = true;
+			// 
+			// sobremesaDiet
+			// 
+			this->sobremesaDiet->AutoSize = true;
+			this->sobremesaDiet->Location = System::Drawing::Point(82, 11);
+			this->sobremesaDiet->Name = L"sobremesaDiet";
+			this->sobremesaDiet->Size = System::Drawing::Size(42, 17);
+			this->sobremesaDiet->TabIndex = 15;
+			this->sobremesaDiet->TabStop = true;
+			this->sobremesaDiet->Text = L"Sim";
+			this->sobremesaDiet->UseVisualStyleBackColor = true;
+			// 
+			// groupBox11
+			// 
+			this->groupBox11->Controls->Add(this->sobremesaNLac);
+			this->groupBox11->Controls->Add(this->sobremesaLac);
+			this->groupBox11->Location = System::Drawing::Point(266, 113);
+			this->groupBox11->Name = L"groupBox11";
+			this->groupBox11->Size = System::Drawing::Size(201, 34);
+			this->groupBox11->TabIndex = 34;
+			this->groupBox11->TabStop = false;
+			this->groupBox11->Text = L"Lactose";
+			// 
+			// sobremesaNLac
+			// 
+			this->sobremesaNLac->AutoSize = true;
+			this->sobremesaNLac->Location = System::Drawing::Point(143, 11);
+			this->sobremesaNLac->Name = L"sobremesaNLac";
+			this->sobremesaNLac->Size = System::Drawing::Size(45, 17);
+			this->sobremesaNLac->TabIndex = 16;
+			this->sobremesaNLac->TabStop = true;
+			this->sobremesaNLac->Text = L"Não";
+			this->sobremesaNLac->UseVisualStyleBackColor = true;
+			// 
+			// sobremesaLac
+			// 
+			this->sobremesaLac->AutoSize = true;
+			this->sobremesaLac->Location = System::Drawing::Point(82, 11);
+			this->sobremesaLac->Name = L"sobremesaLac";
+			this->sobremesaLac->Size = System::Drawing::Size(42, 17);
+			this->sobremesaLac->TabIndex = 15;
+			this->sobremesaLac->TabStop = true;
+			this->sobremesaLac->Text = L"Sim";
+			this->sobremesaLac->UseVisualStyleBackColor = true;
+			// 
+			// groupBox12
+			// 
+			this->groupBox12->Controls->Add(this->lancheNVeg);
+			this->groupBox12->Controls->Add(this->lancheVeg);
+			this->groupBox12->Location = System::Drawing::Point(266, 49);
+			this->groupBox12->Name = L"groupBox12";
+			this->groupBox12->Size = System::Drawing::Size(201, 34);
+			this->groupBox12->TabIndex = 34;
+			this->groupBox12->TabStop = false;
+			this->groupBox12->Text = L"Vegetariano\?";
+			// 
+			// lancheNVeg
+			// 
+			this->lancheNVeg->AutoSize = true;
+			this->lancheNVeg->Location = System::Drawing::Point(143, 11);
+			this->lancheNVeg->Name = L"lancheNVeg";
+			this->lancheNVeg->Size = System::Drawing::Size(45, 17);
+			this->lancheNVeg->TabIndex = 16;
+			this->lancheNVeg->TabStop = true;
+			this->lancheNVeg->Text = L"Não";
+			this->lancheNVeg->UseVisualStyleBackColor = true;
+			// 
+			// lancheVeg
+			// 
+			this->lancheVeg->AutoSize = true;
+			this->lancheVeg->Location = System::Drawing::Point(82, 11);
+			this->lancheVeg->Name = L"lancheVeg";
+			this->lancheVeg->Size = System::Drawing::Size(42, 17);
+			this->lancheVeg->TabIndex = 15;
+			this->lancheVeg->TabStop = true;
+			this->lancheVeg->Text = L"Sim";
+			this->lancheVeg->UseVisualStyleBackColor = true;
 			// 
 			// MyForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(923, 504);
+			this->ClientSize = System::Drawing::Size(937, 525);
 			this->Controls->Add(this->groupBox6);
 			this->Controls->Add(this->groupBox5);
 			this->Controls->Add(this->groupBox4);
@@ -875,6 +899,18 @@ private: System::Windows::Forms::TextBox^  nomeSobremesa;
 			this->groupBox6->PerformLayout();
 			this->groupBox3->ResumeLayout(false);
 			this->groupBox3->PerformLayout();
+			this->groupBox8->ResumeLayout(false);
+			this->groupBox8->PerformLayout();
+			this->groupBox7->ResumeLayout(false);
+			this->groupBox7->PerformLayout();
+			this->groupBox9->ResumeLayout(false);
+			this->groupBox9->PerformLayout();
+			this->groupBox10->ResumeLayout(false);
+			this->groupBox10->PerformLayout();
+			this->groupBox11->ResumeLayout(false);
+			this->groupBox11->PerformLayout();
+			this->groupBox12->ResumeLayout(false);
+			this->groupBox12->PerformLayout();
 			this->ResumeLayout(false);
 
 		}

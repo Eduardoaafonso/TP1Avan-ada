@@ -16,9 +16,9 @@ queue<ThreadSobremesa*> filaSobremesa;
 int nLanche = 0;
 int nBebida = 0;
 int nSobremesa = 0;
-bool lancheVeg;
-bool bebidaGelada, bebidaDiet;
-bool sobremesaGelada, sobremesaDiet, sobremesaLac;
+bool vegLanche;
+bool geladaBebida, dietBebida;
+bool geladaSobremesa, dietSobremesa, lacSobremesa;
 
 System::Void MyForm::botaoLanche_Click_1(System::Object^  sender, System::EventArgs^  e){
 	int tempo1 = Convert::ToInt32(tempo1Lanche->Text);
@@ -33,7 +33,7 @@ System::Void MyForm::botaoLanche_Click_1(System::Object^  sender, System::EventA
 		MessageBox::Show("Fila cheia! Aguarde.","Notificação", MessageBoxButtons::OK,MessageBoxIcon::Asterisk);
 	}
 	else{
-		ThreadLanche* lanche = new ThreadLanche(this, nome, lancheVeg, tempo1, tempo2, tempo3, tempo4);
+		ThreadLanche* lanche = new ThreadLanche(this, nome, vegLanche, tempo1, tempo2, tempo3, tempo4);
 		filaLanche.push(lanche);
 		nLanche++;
 		richTextBox1->AppendText("item criado\n");
@@ -54,7 +54,7 @@ System::Void MyForm::botaoBebida_Click(System::Object^  sender, System::EventArg
 		MessageBox::Show("Fila cheia! Aguarde.","Notificação", MessageBoxButtons::OK,MessageBoxIcon::Asterisk);
 	}
 	else{
-		ThreadBebida* bebida = new ThreadBebida(this, nome, bebidaGelada, bebidaDiet, tempo1, tempo2, tempo3, tempo4);
+		ThreadBebida* bebida = new ThreadBebida(this, nome, geladaBebida, dietBebida, tempo1, tempo2, tempo3, tempo4);
 		filaBebida.push(bebida);
 		nBebida++;
 		richTextBox1->AppendText("item criado\n");
@@ -62,10 +62,10 @@ System::Void MyForm::botaoBebida_Click(System::Object^  sender, System::EventArg
 }
 
 System::Void MyForm::botaoSobremesa_Click(System::Object^  sender, System::EventArgs^  e){
-	int tempo1 = Convert::ToInt32(tempo1Bebida->Text);
-	int tempo2 = Convert::ToInt32(tempo2Bebida->Text);
-	int tempo3 = Convert::ToInt32(tempo3Bebida->Text);
-	int tempo4 = Convert::ToInt32(tempo4Bebida->Text);
+	int tempo1 = Convert::ToInt32(tempo1Sobremesa->Text);
+	int tempo2 = Convert::ToInt32(tempo2Sobremesa->Text);
+	int tempo3 = Convert::ToInt32(tempo3Sobremesa->Text);
+	int tempo4 = Convert::ToInt32(tempo4Sobremesa->Text);
 
 	String^ aux = nomeSobremesa->Text;
 	msclr::interop::marshal_context context;
@@ -75,7 +75,7 @@ System::Void MyForm::botaoSobremesa_Click(System::Object^  sender, System::Event
 		MessageBox::Show("Fila cheia! Aguarde.","Notificação", MessageBoxButtons::OK,MessageBoxIcon::Asterisk);
 	}
 	else{
-		ThreadSobremesa* sobremesa = new ThreadSobremesa(this, nome, sobremesaGelada, sobremesaDiet, sobremesaLac, tempo1, tempo2, tempo3, tempo4);
+		ThreadSobremesa* sobremesa = new ThreadSobremesa(this, nome, geladaSobremesa, dietSobremesa, lacSobremesa, tempo1, tempo2, tempo3, tempo4);
 		filaSobremesa.push(sobremesa);
 		nSobremesa++;
 		richTextBox1->AppendText("item criado\n");
