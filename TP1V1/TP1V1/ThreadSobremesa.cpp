@@ -89,3 +89,6 @@ DWORD ThreadSobremesa::ThreadMemberFunc()
 	_endthread();
 	return 0;
 }
+
+ThreadSobremesa::~ThreadSobremesa(){
+}

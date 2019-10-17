@@ -9,6 +9,9 @@ Sobremesa::Sobremesa(string nome, bool gelado, bool diet, bool lactose, int temp
 		this->lactose = lactose;
 }
 
+Sobremesa::~Sobremesa(){
+}
+
 string Sobremesa::getNome(){
 	return this->nome;
 }

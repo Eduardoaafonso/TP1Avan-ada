@@ -13,6 +13,9 @@ using namespace TP1V1;
 queue<ThreadLanche*> filaLanche;
 queue<ThreadBebida*> filaBebida;
 queue<ThreadSobremesa*> filaSobremesa;
+int nLanche = 0;
+int nBebida = 0;
+int nSobremesa = 0;
 bool lancheVeg;
 bool bebidaGelada, bebidaDiet;
 bool sobremesaGelada, sobremesaDiet, sobremesaLac;
@@ -26,9 +29,15 @@ System::Void MyForm::botaoLanche_Click_1(System::Object^  sender, System::EventA
 	String^ aux = nomeLanche->Text;
 	msclr::interop::marshal_context context;
     string nome = context.marshal_as<std::string>(aux);
-
-	ThreadLanche* lanche = new ThreadLanche(this, nome, lancheVeg, tempo1, tempo2, tempo3, tempo4);
-	filaLanche.push(lanche);
+	if ((nLanche + nSobremesa) == 3){
+		MessageBox::Show("Fila cheia! Aguarde.","Notificação", MessageBoxButtons::OK,MessageBoxIcon::Asterisk);
+	}
+	else{
+		ThreadLanche* lanche = new ThreadLanche(this, nome, lancheVeg, tempo1, tempo2, tempo3, tempo4);
+		filaLanche.push(lanche);
+		nLanche++;
+		richTextBox1->AppendText("item criado\n");
+	}
 }
 
 System::Void MyForm::botaoBebida_Click(System::Object^  sender, System::EventArgs^  e){
@@ -41,8 +50,15 @@ System::Void MyForm::botaoBebida_Click(System::Object^  sender, System::EventArg
 	msclr::interop::marshal_context context;
     string nome = context.marshal_as<std::string>(aux);
 
-	ThreadBebida* bebida = new ThreadBebida(this, nome, bebidaGelada, bebidaDiet, tempo1, tempo2, tempo3, tempo4);
-	filaBebida.push(bebida);
+	if (nBebida == 3){
+		MessageBox::Show("Fila cheia! Aguarde.","Notificação", MessageBoxButtons::OK,MessageBoxIcon::Asterisk);
+	}
+	else{
+		ThreadBebida* bebida = new ThreadBebida(this, nome, bebidaGelada, bebidaDiet, tempo1, tempo2, tempo3, tempo4);
+		filaBebida.push(bebida);
+		nBebida++;
+		richTextBox1->AppendText("item criado\n");
+	}
 }
 
 System::Void MyForm::botaoSobremesa_Click(System::Object^  sender, System::EventArgs^  e){
@@ -55,11 +71,19 @@ System::Void MyForm::botaoSobremesa_Click(System::Object^  sender, System::Event
 	msclr::interop::marshal_context context;
     string nome = context.marshal_as<std::string>(aux);
 
-	ThreadSobremesa* sobremesa = new ThreadSobremesa(this, nome, sobremesaGelada, sobremesaDiet, sobremesaLac, tempo1, tempo2, tempo3, tempo4);
-	filaSobremesa.push(sobremesa);
+	if ((nLanche + nSobremesa) == 3){
+		MessageBox::Show("Fila cheia! Aguarde.","Notificação", MessageBoxButtons::OK,MessageBoxIcon::Asterisk);
+	}
+	else{
+		ThreadSobremesa* sobremesa = new ThreadSobremesa(this, nome, sobremesaGelada, sobremesaDiet, sobremesaLac, tempo1, tempo2, tempo3, tempo4);
+		filaSobremesa.push(sobremesa);
+		nSobremesa++;
+		richTextBox1->AppendText("item criado\n");
+	}
 }
 
-
+void  MyForm::UpdateRichText(String^ texto){
+}
 
 
 

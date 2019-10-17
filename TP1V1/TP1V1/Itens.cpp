@@ -26,10 +26,6 @@ void Itens::setTempoEtapa4(int tempo){
 	this->tempoEtapa4 = tempo;
 }
 
-void Itens::setNPedidos(int pedidos){
-	this->nPedidos = pedidos;
-}
-
 void Itens::setPronto(bool pronto){
 	this->pronto = true;
 }
@@ -50,6 +46,11 @@ int Itens::getTempoEtapa4(){
 	return this->tempoEtapa4;
 }
 
+/*
+void Itens::setNPedidos(int pedidos){
+	this->nPedidos = pedidos;
+}
+
 int Itens::getNPedidos(){
 	return this->nPedidos;
 }
@@ -57,6 +58,7 @@ int Itens::getNPedidos(){
 int Itens::getNMaximo(){
 	return this->nMaximo;
 }
+*/
 
 bool Itens::getPronto(){
 	return this->pronto;

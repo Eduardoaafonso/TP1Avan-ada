@@ -37,7 +37,8 @@ public:
 	bool GetKillThread();
 	int Suspend();
 	int Active();
-
+	
+	~ThreadSobremesa();
 private:
 	
 	gcroot<MyForm^> myform;

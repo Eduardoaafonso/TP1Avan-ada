@@ -8,8 +8,8 @@ private:
 	int tempoEtapa2;
 	int tempoEtapa3;
 	int tempoEtapa4;
-	static int  nPedidos;
-	static const int nMaximo = 3;
+	//static int  nPedidos;
+	//static const int nMaximo = 3;
 	bool pronto;
 
 public:
@@ -26,8 +26,8 @@ public:
 	int getTempoEtapa2();
 	int getTempoEtapa3();
 	int getTempoEtapa4();
-	int getNPedidos();
-	int getNMaximo();
+	//int getNPedidos();
+	//int getNMaximo();
 	bool getPronto();
 	
 };
