@@ -91,3 +91,40 @@ DWORD ThreadBebida::ThreadMemberFunc()
 	_endthread();
 	return 0;
 }
+
+
+
+
+void ThreadBebida::Processos(int tempo1,int tempo2,int tempo3, int tempo4, String^ nome){
+		VerificiarBebida(tempo1, nome);
+		EngarrafarBebida(tempo2, nome);
+		TamparBebida(tempo3, nome);
+		EmbalarBebida(tempo4, nome);
+		
+		SetKillThread(true);
+}
+
+bool ThreadBebida::VerificiarBebida(int tempo1, String^ nome){
+		this->myform->UpdateRichText("Os ingredientes de "+nome+" está sendo verificada no estoque \n");
+		Sleep(tempo1);
+	return true;  
+}
+
+bool ThreadBebida::EngarrafarBebida(int tempo2, String^ nome){
+		this->myform->UpdateRichText(nome+" está iniciando os preparos \n");
+		Sleep(tempo2);
+	return true;  
+}
+
+bool ThreadBebida::TamparBebida(int tempo3, String^ nome){
+		this->myform->UpdateRichText(nome+" está quase pronto \n");
+		Sleep(tempo3);
+	return true;  
+}
+
+bool ThreadBebida::EmbalarBebida(int tempo4, String^ nome){
+		this->myform->UpdateRichText("Pode pegar "+nome+" \n\n");
+		Sleep(tempo4);
+	return true;  
+}
+

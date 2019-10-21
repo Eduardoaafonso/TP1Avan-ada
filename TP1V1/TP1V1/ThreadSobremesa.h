@@ -32,6 +32,11 @@ public:
 	void CreateThread();
 	void WaitForExit();
 	static DWORD WINAPI ThreadFunc(LPVOID param);
+	void Processos(int tempo1,int tempo2,int tempo3, int tempo4, String^ nome);
+	bool ThreadSobremesa::VerificiarIng(int tempo1,String^ nome);
+	bool ThreadSobremesa::SepararIng(int tempo2,String^ nome);
+	bool ThreadSobremesa::PrepSob(int tempo3,String^ nome);
+	bool ThreadSobremesa::EmbalarSob(int tempo4,String^ nome);
 
 	void SetKillThread(bool kill);
 	bool GetKillThread();

@@ -1,5 +1,6 @@
 #include "ThreadSobremesa.h"
 
+
 ThreadSobremesa::ThreadSobremesa(MyForm^ mform, string nome, bool gelado, bool diet, bool lactose, int tempo1, int tempo2, int tempo3, int tempo4) 
 	: Sobremesa(nome, gelado, diet, lactose, tempo1, tempo2, tempo3, tempo4)// Inicializa membros privados da classe
 { 
@@ -91,4 +92,42 @@ DWORD ThreadSobremesa::ThreadMemberFunc()
 }
 
 ThreadSobremesa::~ThreadSobremesa(){
+}
+
+//Descrição do processo
+void ThreadSobremesa::Processos(int tempo1,int tempo2,int tempo3, int tempo4, String^ nome){
+		VerificiarIng(tempo1, nome);
+		SepararIng(tempo2, nome);
+		PrepSob(tempo3, nome);
+		EmbalarSob(tempo4, nome);
+		
+		SetKillThread(true);
+}
+
+bool ThreadSobremesa::VerificiarIng(int tempo1, String^ nome){
+		this->myform->UpdateRichText("Os ingredientes de "+nome+" está sendo verificada no estoque\n");
+		fflush(stdout);
+		Sleep(tempo1);
+	return true;  
+}
+
+bool ThreadSobremesa::SepararIng(int tempo2, String^ nome){
+		this->myform->UpdateRichText(nome+" está iniciando os preparos\n");
+		fflush(stdout);
+		Sleep(tempo2);
+	return true;  
+}
+
+bool ThreadSobremesa::PrepSob(int tempo3, String^ nome){
+		this->myform->UpdateRichText(nome+" está quase pronto\n");
+		fflush(stdout);
+		Sleep(tempo3);
+	return true;  
+}
+
+bool ThreadSobremesa::EmbalarSob(int tempo4, String^ nome){
+		this->myform->UpdateRichText("Pode pegar "+nome+"\n\n");
+		fflush(stdout);
+		Sleep(tempo4);
+	return true;  
 }

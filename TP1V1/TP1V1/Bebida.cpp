@@ -22,3 +22,4 @@ bool Bebida::getGelado(){
 string Bebida::getNome(){
 	return this->nome;
 }
+

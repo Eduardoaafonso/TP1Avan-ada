@@ -6,7 +6,7 @@ ThreadLanche::ThreadLanche(MyForm^ mform, string tipo, bool veg, int tempo1, int
 	this->myform = mform;
 		
 	this->m_hThread = NULL;
-	this->m_ThreadId = 0;
+	this->m_ThreadId = 1;
 	this->KillThread = false;
 }
 
@@ -21,10 +21,10 @@ void ThreadLanche::CreateThread()
 
 	if (m_hThread) {	
 		/* habilita os botões */
-		this->buttonCriar->Enabled = FALSE;
+		/*this->buttonCriar->Enabled = FALSE;
 		this->buttonSuspender->Enabled = FALSE;
 		this->buttonAtivar->Enabled = TRUE;
-		this->buttonTerminar->Enabled = TRUE;
+		this->buttonTerminar->Enabled = TRUE;*/
 	}
 	else
 	{
@@ -83,9 +83,45 @@ DWORD ThreadLanche::ThreadMemberFunc()
 	// Do something useful ...
 	while(!this->GetKillThread())
 	{
-		this->myform->UpdateRichText("New thread " + this->m_ThreadId + " loop!\n");
-		Sleep(3000);
+			
+		//this->myform->UpdateRichText("New thread " + this->m_ThreadId + " loop!\n");
+		//Sleep(3000);
 	}
 	_endthread();
 	return 0;
 }
+
+
+void ThreadLanche::Processos(int tempo1,int tempo2,int tempo3, int tempo4, String^ nome){
+		VerificiarIng(tempo1, nome);
+		SepararIng(tempo2, nome);
+		PrepLanche(tempo3, nome);
+		EmbalarLanche(tempo4, nome);
+		
+		SetKillThread(true);
+}
+
+bool ThreadLanche::VerificiarIng(int tempo1, String^ nome){
+		this->myform->UpdateRichText("Os ingredientes de "+nome+" está sendo verificada no estoque \n");
+		Sleep(tempo1);
+	return true;  
+}
+
+bool ThreadLanche::SepararIng(int tempo2, String^ nome){
+		this->myform->UpdateRichText(nome+" está iniciando os preparos \n");
+		Sleep(tempo2);
+	return true;  
+}
+
+bool ThreadLanche::PrepLanche(int tempo3, String^ nome){
+		this->myform->UpdateRichText(nome+" está quase pronto \n");
+		Sleep(tempo3);
+	return true;  
+}
+
+bool ThreadLanche::EmbalarLanche(int tempo4, String^ nome){
+		this->myform->UpdateRichText("Pode pegar "+nome+" \n\n");
+		Sleep(tempo4);
+	return true;  
+}
+
