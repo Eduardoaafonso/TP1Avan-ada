@@ -46,22 +46,22 @@ namespace TP1V1 {
 
 
 
-	private: System::Windows::Forms::Label^  label4;
+
 
 	private: System::Windows::Forms::GroupBox^  groupBox4;
 
 	private: System::Windows::Forms::GroupBox^  groupBox5;
-	private: System::Windows::Forms::Label^  label26;
 
 
 
-	private: System::Windows::Forms::Label^  label28;
 
-	private: System::Windows::Forms::Label^  label29;
+
+
+
 
 	private: System::Windows::Forms::GroupBox^  groupBox6;
 
-	private: System::Windows::Forms::Label^  label16;
+
 
 	private: System::Windows::Forms::GroupBox^  groupBox1;
 
@@ -70,33 +70,33 @@ namespace TP1V1 {
 
 
 
-	private: System::Windows::Forms::GroupBox^  groupBox2;
-
-	private: System::Windows::Forms::GroupBox^  groupBox3;
-	private: System::Windows::Forms::Label^  label18;
-	private: System::Windows::Forms::Label^  label19;
-
-	private: System::Windows::Forms::Label^  label20;
-	private: System::Windows::Forms::Label^  label21;
 
 
 
 
 
-private: System::Windows::Forms::TextBox^  tempo4Bebida;
-private: System::Windows::Forms::TextBox^  tempo3Bebida;
-private: System::Windows::Forms::TextBox^  tempo2Bebida;
-private: System::Windows::Forms::TextBox^  tempo1Bebida;
-private: System::Windows::Forms::TextBox^  tempo4Sobremesa;
-private: System::Windows::Forms::TextBox^  tempo3Sobremesa;
-private: System::Windows::Forms::TextBox^  tempo2Sobremesa;
-private: System::Windows::Forms::TextBox^  tempo1Sobremesa;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 private: System::Windows::Forms::Button^  botaoLanche;
 private: System::Windows::Forms::Button^  botaoBebida;
 private: System::Windows::Forms::Button^  botaoSobremesa;
-private: System::Windows::Forms::TextBox^  nomeBebida;
-private: System::Windows::Forms::TextBox^  nomeSobremesa;
+
+
 
 
 
@@ -124,16 +124,16 @@ private: System::Windows::Forms::TextBox^  nomeSobremesa;
 	private: System::Windows::Forms::Label^  label3;
 	private: System::Windows::Forms::Label^  label5;
 	private: System::Windows::Forms::Label^  label10;
-private: System::Windows::Forms::Label^  label27;
+
 private: Microsoft::VisualBasic::PowerPacks::RectangleShape^  Etapa4L2;
 private: Microsoft::VisualBasic::PowerPacks::RectangleShape^  Etapa3L2;
 private: Microsoft::VisualBasic::PowerPacks::RectangleShape^  Etapa2L2;
-private: Microsoft::VisualBasic::PowerPacks::RectangleShape^  rectangleShape6;
+
 private: Microsoft::VisualBasic::PowerPacks::RectangleShape^  Etapa1L2;
-private: Microsoft::VisualBasic::PowerPacks::RectangleShape^  rectangleShape4;
-private: Microsoft::VisualBasic::PowerPacks::RectangleShape^  rectangleShape3;
-private: Microsoft::VisualBasic::PowerPacks::RectangleShape^  rectangleShape2;
-private: Microsoft::VisualBasic::PowerPacks::RectangleShape^  rectangleShape1;
+
+
+
+
 private: System::Windows::Forms::Label^  label11;
 private: System::Windows::Forms::Label^  label12;
 private: System::Windows::Forms::Label^  label13;
@@ -156,10 +156,10 @@ private: System::Windows::Forms::RadioButton^  xTudo;
 
 private: System::Windows::Forms::RadioButton^  xBurger;
 
-private: System::Windows::Forms::GroupBox^  groupBox7;
-private: System::Windows::Forms::Label^  label24;
-private: System::Windows::Forms::GroupBox^  groupBox8;
-private: System::Windows::Forms::Label^  label23;
+
+
+
+
 private: System::Windows::Forms::GroupBox^  groupBox9;
 private: System::Windows::Forms::RadioButton^  queijo;
 private: System::Windows::Forms::RadioButton^  soja;
@@ -168,6 +168,50 @@ private: System::Windows::Forms::RadioButton^  soja;
 private: System::Windows::Forms::RadioButton^  carne;
 
 private: System::Windows::Forms::RadioButton^  bacon;
+private: System::Windows::Forms::Label^  label1;
+private: System::Windows::Forms::Label^  label6;
+private: System::Windows::Forms::Label^  label7;
+private: System::Windows::Forms::Label^  label8;
+private: System::Windows::Forms::Label^  label9;
+private: System::Windows::Forms::Label^  label25;
+private: System::Windows::Forms::Label^  label30;
+private: System::Windows::Forms::Label^  label31;
+private: System::Windows::Forms::Label^  label32;
+private: System::Windows::Forms::Label^  label33;
+private: System::Windows::Forms::GroupBox^  groupBox11;
+private: System::Windows::Forms::RadioButton^  bebidaRef;
+private: System::Windows::Forms::RadioButton^  bebidaAgua;
+
+
+private: System::Windows::Forms::RadioButton^  bebidaCer;
+private: System::Windows::Forms::RadioButton^  bebidaSuc;
+
+
+
+
+private: System::Windows::Forms::GroupBox^  groupBox10;
+private: System::Windows::Forms::RadioButton^  bebidaCarQuen;
+private: System::Windows::Forms::RadioButton^  bebidaCarSAlc;
+
+
+private: System::Windows::Forms::RadioButton^  bebidaCarCAlc;
+
+private: System::Windows::Forms::RadioButton^  bebidaCarGel;
+
+private: System::Windows::Forms::GroupBox^  groupBox2;
+private: System::Windows::Forms::RadioButton^  SobPud;
+private: System::Windows::Forms::RadioButton^  SobPav;
+
+
+private: System::Windows::Forms::RadioButton^  SobSorv;
+
+private: System::Windows::Forms::RadioButton^  SobBolo;
+
+private: System::Windows::Forms::GroupBox^  groupBox3;
+private: System::Windows::Forms::RadioButton^  SobCarLight;
+
+private: System::Windows::Forms::RadioButton^  SobCarDiet;
+
 
 
 
@@ -193,51 +237,51 @@ private: System::Windows::Forms::RadioButton^  bacon;
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			this->label4 = (gcnew System::Windows::Forms::Label());
 			this->groupBox4 = (gcnew System::Windows::Forms::GroupBox());
+			this->groupBox9 = (gcnew System::Windows::Forms::GroupBox());
+			this->queijo = (gcnew System::Windows::Forms::RadioButton());
+			this->soja = (gcnew System::Windows::Forms::RadioButton());
+			this->carne = (gcnew System::Windows::Forms::RadioButton());
+			this->bacon = (gcnew System::Windows::Forms::RadioButton());
 			this->numLanche = (gcnew System::Windows::Forms::Label());
 			this->label15 = (gcnew System::Windows::Forms::Label());
 			this->botaoLanche = (gcnew System::Windows::Forms::Button());
 			this->groupBox1 = (gcnew System::Windows::Forms::GroupBox());
+			this->xBacon = (gcnew System::Windows::Forms::RadioButton());
+			this->xVeg = (gcnew System::Windows::Forms::RadioButton());
+			this->xTudo = (gcnew System::Windows::Forms::RadioButton());
+			this->xBurger = (gcnew System::Windows::Forms::RadioButton());
 			this->groupBox5 = (gcnew System::Windows::Forms::GroupBox());
+			this->groupBox11 = (gcnew System::Windows::Forms::GroupBox());
+			this->bebidaRef = (gcnew System::Windows::Forms::RadioButton());
+			this->bebidaAgua = (gcnew System::Windows::Forms::RadioButton());
+			this->bebidaCer = (gcnew System::Windows::Forms::RadioButton());
+			this->bebidaSuc = (gcnew System::Windows::Forms::RadioButton());
+			this->groupBox10 = (gcnew System::Windows::Forms::GroupBox());
+			this->bebidaCarQuen = (gcnew System::Windows::Forms::RadioButton());
+			this->bebidaCarSAlc = (gcnew System::Windows::Forms::RadioButton());
+			this->bebidaCarCAlc = (gcnew System::Windows::Forms::RadioButton());
+			this->bebidaCarGel = (gcnew System::Windows::Forms::RadioButton());
 			this->numBebida = (gcnew System::Windows::Forms::Label());
 			this->label17 = (gcnew System::Windows::Forms::Label());
-			this->nomeBebida = (gcnew System::Windows::Forms::TextBox());
 			this->botaoBebida = (gcnew System::Windows::Forms::Button());
-			this->groupBox2 = (gcnew System::Windows::Forms::GroupBox());
-			this->tempo4Bebida = (gcnew System::Windows::Forms::TextBox());
-			this->tempo3Bebida = (gcnew System::Windows::Forms::TextBox());
-			this->tempo2Bebida = (gcnew System::Windows::Forms::TextBox());
-			this->tempo1Bebida = (gcnew System::Windows::Forms::TextBox());
-			this->label26 = (gcnew System::Windows::Forms::Label());
-			this->label29 = (gcnew System::Windows::Forms::Label());
-			this->label27 = (gcnew System::Windows::Forms::Label());
-			this->label28 = (gcnew System::Windows::Forms::Label());
 			this->groupBox6 = (gcnew System::Windows::Forms::GroupBox());
+			this->groupBox2 = (gcnew System::Windows::Forms::GroupBox());
+			this->SobPud = (gcnew System::Windows::Forms::RadioButton());
+			this->SobPav = (gcnew System::Windows::Forms::RadioButton());
+			this->SobSorv = (gcnew System::Windows::Forms::RadioButton());
+			this->SobBolo = (gcnew System::Windows::Forms::RadioButton());
+			this->groupBox3 = (gcnew System::Windows::Forms::GroupBox());
+			this->SobCarLight = (gcnew System::Windows::Forms::RadioButton());
+			this->SobCarDiet = (gcnew System::Windows::Forms::RadioButton());
 			this->numSobremesa = (gcnew System::Windows::Forms::Label());
 			this->label22 = (gcnew System::Windows::Forms::Label());
-			this->nomeSobremesa = (gcnew System::Windows::Forms::TextBox());
 			this->botaoSobremesa = (gcnew System::Windows::Forms::Button());
-			this->groupBox3 = (gcnew System::Windows::Forms::GroupBox());
-			this->tempo4Sobremesa = (gcnew System::Windows::Forms::TextBox());
-			this->tempo3Sobremesa = (gcnew System::Windows::Forms::TextBox());
-			this->tempo2Sobremesa = (gcnew System::Windows::Forms::TextBox());
-			this->tempo1Sobremesa = (gcnew System::Windows::Forms::TextBox());
-			this->label18 = (gcnew System::Windows::Forms::Label());
-			this->label19 = (gcnew System::Windows::Forms::Label());
-			this->label20 = (gcnew System::Windows::Forms::Label());
-			this->label21 = (gcnew System::Windows::Forms::Label());
-			this->label16 = (gcnew System::Windows::Forms::Label());
 			this->shapeContainer1 = (gcnew Microsoft::VisualBasic::PowerPacks::ShapeContainer());
 			this->Etapa4L2 = (gcnew Microsoft::VisualBasic::PowerPacks::RectangleShape());
 			this->Etapa3L2 = (gcnew Microsoft::VisualBasic::PowerPacks::RectangleShape());
 			this->Etapa2L2 = (gcnew Microsoft::VisualBasic::PowerPacks::RectangleShape());
-			this->rectangleShape6 = (gcnew Microsoft::VisualBasic::PowerPacks::RectangleShape());
 			this->Etapa1L2 = (gcnew Microsoft::VisualBasic::PowerPacks::RectangleShape());
-			this->rectangleShape4 = (gcnew Microsoft::VisualBasic::PowerPacks::RectangleShape());
-			this->rectangleShape3 = (gcnew Microsoft::VisualBasic::PowerPacks::RectangleShape());
-			this->rectangleShape2 = (gcnew Microsoft::VisualBasic::PowerPacks::RectangleShape());
-			this->rectangleShape1 = (gcnew Microsoft::VisualBasic::PowerPacks::RectangleShape());
 			this->Etapa4L1 = (gcnew Microsoft::VisualBasic::PowerPacks::RectangleShape());
 			this->Etapa3L1 = (gcnew Microsoft::VisualBasic::PowerPacks::RectangleShape());
 			this->Etapa2L1 = (gcnew Microsoft::VisualBasic::PowerPacks::RectangleShape());
@@ -250,38 +294,26 @@ private: System::Windows::Forms::RadioButton^  bacon;
 			this->label12 = (gcnew System::Windows::Forms::Label());
 			this->label13 = (gcnew System::Windows::Forms::Label());
 			this->label14 = (gcnew System::Windows::Forms::Label());
-			this->groupBox7 = (gcnew System::Windows::Forms::GroupBox());
-			this->label24 = (gcnew System::Windows::Forms::Label());
-			this->groupBox8 = (gcnew System::Windows::Forms::GroupBox());
-			this->label23 = (gcnew System::Windows::Forms::Label());
-			this->xBurger = (gcnew System::Windows::Forms::RadioButton());
-			this->xTudo = (gcnew System::Windows::Forms::RadioButton());
-			this->xVeg = (gcnew System::Windows::Forms::RadioButton());
-			this->xBacon = (gcnew System::Windows::Forms::RadioButton());
-			this->groupBox9 = (gcnew System::Windows::Forms::GroupBox());
-			this->queijo = (gcnew System::Windows::Forms::RadioButton());
-			this->soja = (gcnew System::Windows::Forms::RadioButton());
-			this->carne = (gcnew System::Windows::Forms::RadioButton());
-			this->bacon = (gcnew System::Windows::Forms::RadioButton());
+			this->label1 = (gcnew System::Windows::Forms::Label());
+			this->label6 = (gcnew System::Windows::Forms::Label());
+			this->label7 = (gcnew System::Windows::Forms::Label());
+			this->label8 = (gcnew System::Windows::Forms::Label());
+			this->label9 = (gcnew System::Windows::Forms::Label());
+			this->label25 = (gcnew System::Windows::Forms::Label());
+			this->label30 = (gcnew System::Windows::Forms::Label());
+			this->label31 = (gcnew System::Windows::Forms::Label());
+			this->label32 = (gcnew System::Windows::Forms::Label());
+			this->label33 = (gcnew System::Windows::Forms::Label());
 			this->groupBox4->SuspendLayout();
+			this->groupBox9->SuspendLayout();
 			this->groupBox1->SuspendLayout();
 			this->groupBox5->SuspendLayout();
-			this->groupBox2->SuspendLayout();
+			this->groupBox11->SuspendLayout();
+			this->groupBox10->SuspendLayout();
 			this->groupBox6->SuspendLayout();
+			this->groupBox2->SuspendLayout();
 			this->groupBox3->SuspendLayout();
-			this->groupBox7->SuspendLayout();
-			this->groupBox8->SuspendLayout();
-			this->groupBox9->SuspendLayout();
 			this->SuspendLayout();
-			// 
-			// label4
-			// 
-			this->label4->AutoSize = true;
-			this->label4->Location = System::Drawing::Point(263, 24);
-			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(35, 13);
-			this->label4->TabIndex = 7;
-			this->label4->Text = L"Nome";
 			// 
 			// groupBox4
 			// 
@@ -290,36 +322,104 @@ private: System::Windows::Forms::RadioButton^  bacon;
 			this->groupBox4->Controls->Add(this->label15);
 			this->groupBox4->Controls->Add(this->botaoLanche);
 			this->groupBox4->Controls->Add(this->groupBox1);
-			this->groupBox4->Location = System::Drawing::Point(401, 2);
+			this->groupBox4->Location = System::Drawing::Point(811, 287);
+			this->groupBox4->Margin = System::Windows::Forms::Padding(4);
 			this->groupBox4->Name = L"groupBox4";
-			this->groupBox4->Size = System::Drawing::Size(505, 157);
+			this->groupBox4->Padding = System::Windows::Forms::Padding(4);
+			this->groupBox4->Size = System::Drawing::Size(375, 228);
 			this->groupBox4->TabIndex = 3;
 			this->groupBox4->TabStop = false;
 			this->groupBox4->Text = L"Lanche";
 			// 
+			// groupBox9
+			// 
+			this->groupBox9->Controls->Add(this->queijo);
+			this->groupBox9->Controls->Add(this->soja);
+			this->groupBox9->Controls->Add(this->carne);
+			this->groupBox9->Controls->Add(this->bacon);
+			this->groupBox9->Location = System::Drawing::Point(187, 23);
+			this->groupBox9->Margin = System::Windows::Forms::Padding(4);
+			this->groupBox9->Name = L"groupBox9";
+			this->groupBox9->Padding = System::Windows::Forms::Padding(4);
+			this->groupBox9->Size = System::Drawing::Size(173, 148);
+			this->groupBox9->TabIndex = 33;
+			this->groupBox9->TabStop = false;
+			this->groupBox9->Text = L"Adicional:";
+			// 
+			// queijo
+			// 
+			this->queijo->AutoSize = true;
+			this->queijo->Location = System::Drawing::Point(11, 55);
+			this->queijo->Margin = System::Windows::Forms::Padding(4);
+			this->queijo->Name = L"queijo";
+			this->queijo->Size = System::Drawing::Size(70, 21);
+			this->queijo->TabIndex = 3;
+			this->queijo->TabStop = true;
+			this->queijo->Text = L"Queijo";
+			this->queijo->UseVisualStyleBackColor = true;
+			// 
+			// soja
+			// 
+			this->soja->AutoSize = true;
+			this->soja->Location = System::Drawing::Point(11, 110);
+			this->soja->Margin = System::Windows::Forms::Padding(4);
+			this->soja->Name = L"soja";
+			this->soja->Size = System::Drawing::Size(140, 21);
+			this->soja->TabIndex = 2;
+			this->soja->TabStop = true;
+			this->soja->Text = L"Hamburguer Soja";
+			this->soja->UseVisualStyleBackColor = true;
+			// 
+			// carne
+			// 
+			this->carne->AutoSize = true;
+			this->carne->Location = System::Drawing::Point(11, 81);
+			this->carne->Margin = System::Windows::Forms::Padding(4);
+			this->carne->Name = L"carne";
+			this->carne->Size = System::Drawing::Size(150, 21);
+			this->carne->TabIndex = 1;
+			this->carne->TabStop = true;
+			this->carne->Text = L"Hamburguer Carne";
+			this->carne->UseVisualStyleBackColor = true;
+			// 
+			// bacon
+			// 
+			this->bacon->AutoSize = true;
+			this->bacon->Location = System::Drawing::Point(9, 25);
+			this->bacon->Margin = System::Windows::Forms::Padding(4);
+			this->bacon->Name = L"bacon";
+			this->bacon->Size = System::Drawing::Size(69, 21);
+			this->bacon->TabIndex = 0;
+			this->bacon->TabStop = true;
+			this->bacon->Text = L"Bacon";
+			this->bacon->UseVisualStyleBackColor = true;
+			// 
 			// numLanche
 			// 
 			this->numLanche->AutoSize = true;
-			this->numLanche->Location = System::Drawing::Point(347, 135);
+			this->numLanche->Location = System::Drawing::Point(311, 195);
+			this->numLanche->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->numLanche->Name = L"numLanche";
-			this->numLanche->Size = System::Drawing::Size(13, 13);
+			this->numLanche->Size = System::Drawing::Size(16, 17);
 			this->numLanche->TabIndex = 43;
 			this->numLanche->Text = L"0";
 			// 
 			// label15
 			// 
 			this->label15->AutoSize = true;
-			this->label15->Location = System::Drawing::Point(276, 135);
+			this->label15->Location = System::Drawing::Point(230, 192);
+			this->label15->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label15->Name = L"label15";
-			this->label15->Size = System::Drawing::Size(65, 13);
+			this->label15->Size = System::Drawing::Size(87, 17);
 			this->label15->TabIndex = 40;
 			this->label15->Text = L"Produzidos: ";
 			// 
 			// botaoLanche
 			// 
-			this->botaoLanche->Location = System::Drawing::Point(279, 105);
+			this->botaoLanche->Location = System::Drawing::Point(13, 189);
+			this->botaoLanche->Margin = System::Windows::Forms::Padding(4);
 			this->botaoLanche->Name = L"botaoLanche";
-			this->botaoLanche->Size = System::Drawing::Size(157, 23);
+			this->botaoLanche->Size = System::Drawing::Size(209, 28);
 			this->botaoLanche->TabIndex = 34;
 			this->botaoLanche->Text = L"Fazer Pedido";
 			this->botaoLanche->UseVisualStyleBackColor = true;
@@ -331,601 +431,643 @@ private: System::Windows::Forms::RadioButton^  bacon;
 			this->groupBox1->Controls->Add(this->xVeg);
 			this->groupBox1->Controls->Add(this->xTudo);
 			this->groupBox1->Controls->Add(this->xBurger);
-			this->groupBox1->Location = System::Drawing::Point(10, 19);
+			this->groupBox1->Location = System::Drawing::Point(13, 23);
+			this->groupBox1->Margin = System::Windows::Forms::Padding(4);
 			this->groupBox1->Name = L"groupBox1";
-			this->groupBox1->Size = System::Drawing::Size(117, 120);
+			this->groupBox1->Padding = System::Windows::Forms::Padding(4);
+			this->groupBox1->Size = System::Drawing::Size(156, 148);
 			this->groupBox1->TabIndex = 32;
 			this->groupBox1->TabStop = false;
 			this->groupBox1->Text = L"Tipo de Lanche:";
 			// 
+			// xBacon
+			// 
+			this->xBacon->AutoSize = true;
+			this->xBacon->Location = System::Drawing::Point(11, 55);
+			this->xBacon->Margin = System::Windows::Forms::Padding(4);
+			this->xBacon->Name = L"xBacon";
+			this->xBacon->Size = System::Drawing::Size(91, 21);
+			this->xBacon->TabIndex = 3;
+			this->xBacon->TabStop = true;
+			this->xBacon->Text = L"X - Bacon";
+			this->xBacon->UseVisualStyleBackColor = true;
+			// 
+			// xVeg
+			// 
+			this->xVeg->AutoSize = true;
+			this->xVeg->Location = System::Drawing::Point(11, 110);
+			this->xVeg->Margin = System::Windows::Forms::Padding(4);
+			this->xVeg->Name = L"xVeg";
+			this->xVeg->Size = System::Drawing::Size(76, 21);
+			this->xVeg->TabIndex = 2;
+			this->xVeg->TabStop = true;
+			this->xVeg->Text = L"X - Veg";
+			this->xVeg->UseVisualStyleBackColor = true;
+			// 
+			// xTudo
+			// 
+			this->xTudo->AutoSize = true;
+			this->xTudo->Location = System::Drawing::Point(11, 81);
+			this->xTudo->Margin = System::Windows::Forms::Padding(4);
+			this->xTudo->Name = L"xTudo";
+			this->xTudo->Size = System::Drawing::Size(84, 21);
+			this->xTudo->TabIndex = 1;
+			this->xTudo->TabStop = true;
+			this->xTudo->Text = L"X - Tudo";
+			this->xTudo->UseVisualStyleBackColor = true;
+			// 
+			// xBurger
+			// 
+			this->xBurger->AutoSize = true;
+			this->xBurger->Location = System::Drawing::Point(9, 25);
+			this->xBurger->Margin = System::Windows::Forms::Padding(4);
+			this->xBurger->Name = L"xBurger";
+			this->xBurger->Size = System::Drawing::Size(94, 21);
+			this->xBurger->TabIndex = 0;
+			this->xBurger->TabStop = true;
+			this->xBurger->Text = L"X - Burger";
+			this->xBurger->UseVisualStyleBackColor = true;
+			// 
 			// groupBox5
 			// 
+			this->groupBox5->Controls->Add(this->groupBox11);
+			this->groupBox5->Controls->Add(this->groupBox10);
 			this->groupBox5->Controls->Add(this->numBebida);
 			this->groupBox5->Controls->Add(this->label17);
-			this->groupBox5->Controls->Add(this->nomeBebida);
 			this->groupBox5->Controls->Add(this->botaoBebida);
-			this->groupBox5->Controls->Add(this->groupBox2);
-			this->groupBox5->Controls->Add(this->label4);
-			this->groupBox5->Location = System::Drawing::Point(401, 165);
+			this->groupBox5->Location = System::Drawing::Point(418, 287);
+			this->groupBox5->Margin = System::Windows::Forms::Padding(4);
 			this->groupBox5->Name = L"groupBox5";
-			this->groupBox5->Size = System::Drawing::Size(505, 157);
+			this->groupBox5->Padding = System::Windows::Forms::Padding(4);
+			this->groupBox5->Size = System::Drawing::Size(385, 228);
 			this->groupBox5->TabIndex = 31;
 			this->groupBox5->TabStop = false;
 			this->groupBox5->Text = L"Bebida";
 			// 
+			// groupBox11
+			// 
+			this->groupBox11->Controls->Add(this->bebidaRef);
+			this->groupBox11->Controls->Add(this->bebidaAgua);
+			this->groupBox11->Controls->Add(this->bebidaCer);
+			this->groupBox11->Controls->Add(this->bebidaSuc);
+			this->groupBox11->Location = System::Drawing::Point(19, 30);
+			this->groupBox11->Margin = System::Windows::Forms::Padding(4);
+			this->groupBox11->Name = L"groupBox11";
+			this->groupBox11->Padding = System::Windows::Forms::Padding(4);
+			this->groupBox11->Size = System::Drawing::Size(156, 148);
+			this->groupBox11->TabIndex = 33;
+			this->groupBox11->TabStop = false;
+			this->groupBox11->Text = L"Tipos de Bebidas";
+			// 
+			// bebidaRef
+			// 
+			this->bebidaRef->AutoSize = true;
+			this->bebidaRef->Location = System::Drawing::Point(11, 55);
+			this->bebidaRef->Margin = System::Windows::Forms::Padding(4);
+			this->bebidaRef->Name = L"bebidaRef";
+			this->bebidaRef->Size = System::Drawing::Size(108, 21);
+			this->bebidaRef->TabIndex = 3;
+			this->bebidaRef->TabStop = true;
+			this->bebidaRef->Text = L"Refrigerante";
+			this->bebidaRef->UseVisualStyleBackColor = true;
+			// 
+			// bebidaAgua
+			// 
+			this->bebidaAgua->AutoSize = true;
+			this->bebidaAgua->Location = System::Drawing::Point(11, 110);
+			this->bebidaAgua->Margin = System::Windows::Forms::Padding(4);
+			this->bebidaAgua->Name = L"bebidaAgua";
+			this->bebidaAgua->Size = System::Drawing::Size(62, 21);
+			this->bebidaAgua->TabIndex = 2;
+			this->bebidaAgua->TabStop = true;
+			this->bebidaAgua->Text = L"Água";
+			this->bebidaAgua->UseVisualStyleBackColor = true;
+			// 
+			// bebidaCer
+			// 
+			this->bebidaCer->AutoSize = true;
+			this->bebidaCer->Location = System::Drawing::Point(11, 81);
+			this->bebidaCer->Margin = System::Windows::Forms::Padding(4);
+			this->bebidaCer->Name = L"bebidaCer";
+			this->bebidaCer->Size = System::Drawing::Size(77, 21);
+			this->bebidaCer->TabIndex = 1;
+			this->bebidaCer->TabStop = true;
+			this->bebidaCer->Text = L"Cerveja";
+			this->bebidaCer->UseVisualStyleBackColor = true;
+			// 
+			// bebidaSuc
+			// 
+			this->bebidaSuc->AutoSize = true;
+			this->bebidaSuc->Location = System::Drawing::Point(9, 25);
+			this->bebidaSuc->Margin = System::Windows::Forms::Padding(4);
+			this->bebidaSuc->Name = L"bebidaSuc";
+			this->bebidaSuc->Size = System::Drawing::Size(61, 21);
+			this->bebidaSuc->TabIndex = 0;
+			this->bebidaSuc->TabStop = true;
+			this->bebidaSuc->Text = L"Suco";
+			this->bebidaSuc->UseVisualStyleBackColor = true;
+			// 
+			// groupBox10
+			// 
+			this->groupBox10->Controls->Add(this->bebidaCarQuen);
+			this->groupBox10->Controls->Add(this->bebidaCarSAlc);
+			this->groupBox10->Controls->Add(this->bebidaCarCAlc);
+			this->groupBox10->Controls->Add(this->bebidaCarGel);
+			this->groupBox10->Location = System::Drawing::Point(187, 30);
+			this->groupBox10->Margin = System::Windows::Forms::Padding(4);
+			this->groupBox10->Name = L"groupBox10";
+			this->groupBox10->Padding = System::Windows::Forms::Padding(4);
+			this->groupBox10->Size = System::Drawing::Size(173, 148);
+			this->groupBox10->TabIndex = 34;
+			this->groupBox10->TabStop = false;
+			this->groupBox10->Text = L"Característica";
+			// 
+			// bebidaCarQuen
+			// 
+			this->bebidaCarQuen->AutoSize = true;
+			this->bebidaCarQuen->Location = System::Drawing::Point(11, 55);
+			this->bebidaCarQuen->Margin = System::Windows::Forms::Padding(4);
+			this->bebidaCarQuen->Name = L"bebidaCarQuen";
+			this->bebidaCarQuen->Size = System::Drawing::Size(76, 21);
+			this->bebidaCarQuen->TabIndex = 3;
+			this->bebidaCarQuen->TabStop = true;
+			this->bebidaCarQuen->Text = L"Quente";
+			this->bebidaCarQuen->UseVisualStyleBackColor = true;
+			// 
+			// bebidaCarSAlc
+			// 
+			this->bebidaCarSAlc->AutoSize = true;
+			this->bebidaCarSAlc->Location = System::Drawing::Point(11, 110);
+			this->bebidaCarSAlc->Margin = System::Windows::Forms::Padding(4);
+			this->bebidaCarSAlc->Name = L"bebidaCarSAlc";
+			this->bebidaCarSAlc->Size = System::Drawing::Size(99, 21);
+			this->bebidaCarSAlc->TabIndex = 2;
+			this->bebidaCarSAlc->TabStop = true;
+			this->bebidaCarSAlc->Text = L"Sem Alcool";
+			this->bebidaCarSAlc->UseVisualStyleBackColor = true;
+			// 
+			// bebidaCarCAlc
+			// 
+			this->bebidaCarCAlc->AutoSize = true;
+			this->bebidaCarCAlc->Location = System::Drawing::Point(11, 81);
+			this->bebidaCarCAlc->Margin = System::Windows::Forms::Padding(4);
+			this->bebidaCarCAlc->Name = L"bebidaCarCAlc";
+			this->bebidaCarCAlc->Size = System::Drawing::Size(99, 21);
+			this->bebidaCarCAlc->TabIndex = 1;
+			this->bebidaCarCAlc->TabStop = true;
+			this->bebidaCarCAlc->Text = L"Com Alcool";
+			this->bebidaCarCAlc->UseVisualStyleBackColor = true;
+			// 
+			// bebidaCarGel
+			// 
+			this->bebidaCarGel->AutoSize = true;
+			this->bebidaCarGel->Location = System::Drawing::Point(9, 25);
+			this->bebidaCarGel->Margin = System::Windows::Forms::Padding(4);
+			this->bebidaCarGel->Name = L"bebidaCarGel";
+			this->bebidaCarGel->Size = System::Drawing::Size(75, 21);
+			this->bebidaCarGel->TabIndex = 0;
+			this->bebidaCarGel->TabStop = true;
+			this->bebidaCarGel->Text = L"Gelada";
+			this->bebidaCarGel->UseVisualStyleBackColor = true;
+			// 
 			// numBebida
 			// 
 			this->numBebida->AutoSize = true;
-			this->numBebida->Location = System::Drawing::Point(347, 73);
+			this->numBebida->Location = System::Drawing::Point(322, 200);
+			this->numBebida->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->numBebida->Name = L"numBebida";
-			this->numBebida->Size = System::Drawing::Size(13, 13);
+			this->numBebida->Size = System::Drawing::Size(16, 17);
 			this->numBebida->TabIndex = 42;
 			this->numBebida->Text = L"0";
 			// 
 			// label17
 			// 
 			this->label17->AutoSize = true;
-			this->label17->Location = System::Drawing::Point(276, 73);
+			this->label17->Location = System::Drawing::Point(242, 198);
+			this->label17->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label17->Name = L"label17";
-			this->label17->Size = System::Drawing::Size(65, 13);
+			this->label17->Size = System::Drawing::Size(87, 17);
 			this->label17->TabIndex = 41;
 			this->label17->Text = L"Produzidos: ";
 			// 
-			// nomeBebida
-			// 
-			this->nomeBebida->Location = System::Drawing::Point(342, 17);
-			this->nomeBebida->Name = L"nomeBebida";
-			this->nomeBebida->Size = System::Drawing::Size(147, 20);
-			this->nomeBebida->TabIndex = 35;
-			// 
 			// botaoBebida
 			// 
-			this->botaoBebida->Location = System::Drawing::Point(279, 128);
+			this->botaoBebida->Location = System::Drawing::Point(16, 192);
+			this->botaoBebida->Margin = System::Windows::Forms::Padding(4);
 			this->botaoBebida->Name = L"botaoBebida";
-			this->botaoBebida->Size = System::Drawing::Size(157, 23);
+			this->botaoBebida->Size = System::Drawing::Size(209, 28);
 			this->botaoBebida->TabIndex = 35;
 			this->botaoBebida->Text = L"Fazer Pedido";
 			this->botaoBebida->UseVisualStyleBackColor = true;
 			this->botaoBebida->Click += gcnew System::EventHandler(this, &MyForm::botaoBebida_Click);
 			// 
-			// groupBox2
-			// 
-			this->groupBox2->Controls->Add(this->tempo4Bebida);
-			this->groupBox2->Controls->Add(this->tempo3Bebida);
-			this->groupBox2->Controls->Add(this->tempo2Bebida);
-			this->groupBox2->Controls->Add(this->tempo1Bebida);
-			this->groupBox2->Controls->Add(this->label26);
-			this->groupBox2->Controls->Add(this->label29);
-			this->groupBox2->Controls->Add(this->label27);
-			this->groupBox2->Controls->Add(this->label28);
-			this->groupBox2->Location = System::Drawing::Point(14, 17);
-			this->groupBox2->Name = L"groupBox2";
-			this->groupBox2->Size = System::Drawing::Size(238, 135);
-			this->groupBox2->TabIndex = 33;
-			this->groupBox2->TabStop = false;
-			this->groupBox2->Text = L"Tempos (segundos)";
-			// 
-			// tempo4Bebida
-			// 
-			this->tempo4Bebida->Location = System::Drawing::Point(170, 100);
-			this->tempo4Bebida->Name = L"tempo4Bebida";
-			this->tempo4Bebida->Size = System::Drawing::Size(48, 20);
-			this->tempo4Bebida->TabIndex = 30;
-			// 
-			// tempo3Bebida
-			// 
-			this->tempo3Bebida->Location = System::Drawing::Point(170, 75);
-			this->tempo3Bebida->Name = L"tempo3Bebida";
-			this->tempo3Bebida->Size = System::Drawing::Size(48, 20);
-			this->tempo3Bebida->TabIndex = 29;
-			// 
-			// tempo2Bebida
-			// 
-			this->tempo2Bebida->Location = System::Drawing::Point(170, 49);
-			this->tempo2Bebida->Name = L"tempo2Bebida";
-			this->tempo2Bebida->Size = System::Drawing::Size(48, 20);
-			this->tempo2Bebida->TabIndex = 28;
-			// 
-			// tempo1Bebida
-			// 
-			this->tempo1Bebida->Location = System::Drawing::Point(170, 19);
-			this->tempo1Bebida->Name = L"tempo1Bebida";
-			this->tempo1Bebida->Size = System::Drawing::Size(48, 20);
-			this->tempo1Bebida->TabIndex = 27;
-			// 
-			// label26
-			// 
-			this->label26->AutoSize = true;
-			this->label26->Location = System::Drawing::Point(21, 107);
-			this->label26->Name = L"label26";
-			this->label26->Size = System::Drawing::Size(81, 13);
-			this->label26->TabIndex = 22;
-			this->label26->Text = L"Embalar Bebida";
-			// 
-			// label29
-			// 
-			this->label29->AutoSize = true;
-			this->label29->Location = System::Drawing::Point(21, 26);
-			this->label29->Name = L"label29";
-			this->label29->Size = System::Drawing::Size(121, 13);
-			this->label29->TabIndex = 14;
-			this->label29->Text = L"Conferir Estoque Bebida";
-			// 
-			// label27
-			// 
-			this->label27->AutoSize = true;
-			this->label27->Location = System::Drawing::Point(21, 82);
-			this->label27->Name = L"label27";
-			this->label27->Size = System::Drawing::Size(79, 13);
-			this->label27->TabIndex = 20;
-			this->label27->Text = L"Tampar Bebida";
-			// 
-			// label28
-			// 
-			this->label28->AutoSize = true;
-			this->label28->Location = System::Drawing::Point(21, 56);
-			this->label28->Name = L"label28";
-			this->label28->Size = System::Drawing::Size(92, 13);
-			this->label28->TabIndex = 18;
-			this->label28->Text = L"Engarrafar Bebida";
-			// 
 			// groupBox6
 			// 
+			this->groupBox6->Controls->Add(this->groupBox2);
+			this->groupBox6->Controls->Add(this->groupBox3);
 			this->groupBox6->Controls->Add(this->numSobremesa);
 			this->groupBox6->Controls->Add(this->label22);
-			this->groupBox6->Controls->Add(this->nomeSobremesa);
 			this->groupBox6->Controls->Add(this->botaoSobremesa);
-			this->groupBox6->Controls->Add(this->groupBox3);
-			this->groupBox6->Controls->Add(this->label16);
-			this->groupBox6->Location = System::Drawing::Point(401, 328);
+			this->groupBox6->Location = System::Drawing::Point(13, 287);
+			this->groupBox6->Margin = System::Windows::Forms::Padding(4);
 			this->groupBox6->Name = L"groupBox6";
-			this->groupBox6->Size = System::Drawing::Size(505, 185);
+			this->groupBox6->Padding = System::Windows::Forms::Padding(4);
+			this->groupBox6->Size = System::Drawing::Size(388, 228);
 			this->groupBox6->TabIndex = 31;
 			this->groupBox6->TabStop = false;
 			this->groupBox6->Text = L"Sobremesa";
 			// 
+			// groupBox2
+			// 
+			this->groupBox2->Controls->Add(this->SobPud);
+			this->groupBox2->Controls->Add(this->SobPav);
+			this->groupBox2->Controls->Add(this->SobSorv);
+			this->groupBox2->Controls->Add(this->SobBolo);
+			this->groupBox2->Location = System::Drawing::Point(19, 30);
+			this->groupBox2->Margin = System::Windows::Forms::Padding(4);
+			this->groupBox2->Name = L"groupBox2";
+			this->groupBox2->Padding = System::Windows::Forms::Padding(4);
+			this->groupBox2->Size = System::Drawing::Size(215, 148);
+			this->groupBox2->TabIndex = 45;
+			this->groupBox2->TabStop = false;
+			this->groupBox2->Text = L"Tipos de Sobremesas";
+			// 
+			// SobPud
+			// 
+			this->SobPud->AutoSize = true;
+			this->SobPud->Location = System::Drawing::Point(11, 55);
+			this->SobPud->Margin = System::Windows::Forms::Padding(4);
+			this->SobPud->Name = L"SobPud";
+			this->SobPud->Size = System::Drawing::Size(68, 21);
+			this->SobPud->TabIndex = 3;
+			this->SobPud->TabStop = true;
+			this->SobPud->Text = L"Pudim";
+			this->SobPud->UseVisualStyleBackColor = true;
+			// 
+			// SobPav
+			// 
+			this->SobPav->AutoSize = true;
+			this->SobPav->Location = System::Drawing::Point(11, 110);
+			this->SobPav->Margin = System::Windows::Forms::Padding(4);
+			this->SobPav->Name = L"SobPav";
+			this->SobPav->Size = System::Drawing::Size(61, 21);
+			this->SobPav->TabIndex = 2;
+			this->SobPav->TabStop = true;
+			this->SobPav->Text = L"Pavê";
+			this->SobPav->UseVisualStyleBackColor = true;
+			// 
+			// SobSorv
+			// 
+			this->SobSorv->AutoSize = true;
+			this->SobSorv->Location = System::Drawing::Point(11, 81);
+			this->SobSorv->Margin = System::Windows::Forms::Padding(4);
+			this->SobSorv->Name = L"SobSorv";
+			this->SobSorv->Size = System::Drawing::Size(78, 21);
+			this->SobSorv->TabIndex = 1;
+			this->SobSorv->TabStop = true;
+			this->SobSorv->Text = L"Sorvete";
+			this->SobSorv->UseVisualStyleBackColor = true;
+			// 
+			// SobBolo
+			// 
+			this->SobBolo->AutoSize = true;
+			this->SobBolo->Location = System::Drawing::Point(9, 25);
+			this->SobBolo->Margin = System::Windows::Forms::Padding(4);
+			this->SobBolo->Name = L"SobBolo";
+			this->SobBolo->Size = System::Drawing::Size(57, 21);
+			this->SobBolo->TabIndex = 0;
+			this->SobBolo->TabStop = true;
+			this->SobBolo->Text = L"Bolo";
+			this->SobBolo->UseVisualStyleBackColor = true;
+			// 
+			// groupBox3
+			// 
+			this->groupBox3->Controls->Add(this->SobCarLight);
+			this->groupBox3->Controls->Add(this->SobCarDiet);
+			this->groupBox3->Location = System::Drawing::Point(242, 30);
+			this->groupBox3->Margin = System::Windows::Forms::Padding(4);
+			this->groupBox3->Name = L"groupBox3";
+			this->groupBox3->Padding = System::Windows::Forms::Padding(4);
+			this->groupBox3->Size = System::Drawing::Size(118, 148);
+			this->groupBox3->TabIndex = 46;
+			this->groupBox3->TabStop = false;
+			this->groupBox3->Text = L"Característica";
+			// 
+			// SobCarLight
+			// 
+			this->SobCarLight->AutoSize = true;
+			this->SobCarLight->Location = System::Drawing::Point(11, 55);
+			this->SobCarLight->Margin = System::Windows::Forms::Padding(4);
+			this->SobCarLight->Name = L"SobCarLight";
+			this->SobCarLight->Size = System::Drawing::Size(60, 21);
+			this->SobCarLight->TabIndex = 3;
+			this->SobCarLight->TabStop = true;
+			this->SobCarLight->Text = L"Light";
+			this->SobCarLight->UseVisualStyleBackColor = true;
+			// 
+			// SobCarDiet
+			// 
+			this->SobCarDiet->AutoSize = true;
+			this->SobCarDiet->Location = System::Drawing::Point(9, 25);
+			this->SobCarDiet->Margin = System::Windows::Forms::Padding(4);
+			this->SobCarDiet->Name = L"SobCarDiet";
+			this->SobCarDiet->Size = System::Drawing::Size(54, 21);
+			this->SobCarDiet->TabIndex = 0;
+			this->SobCarDiet->TabStop = true;
+			this->SobCarDiet->Text = L"Diet";
+			this->SobCarDiet->UseVisualStyleBackColor = true;
+			// 
 			// numSobremesa
 			// 
 			this->numSobremesa->AutoSize = true;
-			this->numSobremesa->Location = System::Drawing::Point(347, 88);
+			this->numSobremesa->Location = System::Drawing::Point(320, 198);
+			this->numSobremesa->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->numSobremesa->Name = L"numSobremesa";
-			this->numSobremesa->Size = System::Drawing::Size(13, 13);
+			this->numSobremesa->Size = System::Drawing::Size(16, 17);
 			this->numSobremesa->TabIndex = 44;
 			this->numSobremesa->Text = L"0";
 			// 
 			// label22
 			// 
 			this->label22->AutoSize = true;
-			this->label22->Location = System::Drawing::Point(276, 88);
+			this->label22->Location = System::Drawing::Point(239, 198);
+			this->label22->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label22->Name = L"label22";
-			this->label22->Size = System::Drawing::Size(65, 13);
+			this->label22->Size = System::Drawing::Size(87, 17);
 			this->label22->TabIndex = 42;
 			this->label22->Text = L"Produzidos: ";
 			// 
-			// nomeSobremesa
-			// 
-			this->nomeSobremesa->Location = System::Drawing::Point(342, 24);
-			this->nomeSobremesa->Name = L"nomeSobremesa";
-			this->nomeSobremesa->Size = System::Drawing::Size(147, 20);
-			this->nomeSobremesa->TabIndex = 36;
-			// 
 			// botaoSobremesa
 			// 
-			this->botaoSobremesa->Location = System::Drawing::Point(279, 150);
+			this->botaoSobremesa->Location = System::Drawing::Point(19, 192);
+			this->botaoSobremesa->Margin = System::Windows::Forms::Padding(4);
 			this->botaoSobremesa->Name = L"botaoSobremesa";
-			this->botaoSobremesa->Size = System::Drawing::Size(157, 23);
+			this->botaoSobremesa->Size = System::Drawing::Size(209, 28);
 			this->botaoSobremesa->TabIndex = 36;
 			this->botaoSobremesa->Text = L"Fazer Pedido";
 			this->botaoSobremesa->UseVisualStyleBackColor = true;
 			this->botaoSobremesa->Click += gcnew System::EventHandler(this, &MyForm::botaoSobremesa_Click);
-			// 
-			// groupBox3
-			// 
-			this->groupBox3->Controls->Add(this->tempo4Sobremesa);
-			this->groupBox3->Controls->Add(this->tempo3Sobremesa);
-			this->groupBox3->Controls->Add(this->tempo2Sobremesa);
-			this->groupBox3->Controls->Add(this->tempo1Sobremesa);
-			this->groupBox3->Controls->Add(this->label18);
-			this->groupBox3->Controls->Add(this->label19);
-			this->groupBox3->Controls->Add(this->label20);
-			this->groupBox3->Controls->Add(this->label21);
-			this->groupBox3->Location = System::Drawing::Point(6, 19);
-			this->groupBox3->Name = L"groupBox3";
-			this->groupBox3->Size = System::Drawing::Size(238, 136);
-			this->groupBox3->TabIndex = 43;
-			this->groupBox3->TabStop = false;
-			this->groupBox3->Text = L"Tempos (segundos)";
-			// 
-			// tempo4Sobremesa
-			// 
-			this->tempo4Sobremesa->Location = System::Drawing::Point(178, 107);
-			this->tempo4Sobremesa->Name = L"tempo4Sobremesa";
-			this->tempo4Sobremesa->Size = System::Drawing::Size(48, 20);
-			this->tempo4Sobremesa->TabIndex = 34;
-			// 
-			// tempo3Sobremesa
-			// 
-			this->tempo3Sobremesa->Location = System::Drawing::Point(178, 79);
-			this->tempo3Sobremesa->Name = L"tempo3Sobremesa";
-			this->tempo3Sobremesa->Size = System::Drawing::Size(48, 20);
-			this->tempo3Sobremesa->TabIndex = 33;
-			// 
-			// tempo2Sobremesa
-			// 
-			this->tempo2Sobremesa->Location = System::Drawing::Point(178, 53);
-			this->tempo2Sobremesa->Name = L"tempo2Sobremesa";
-			this->tempo2Sobremesa->Size = System::Drawing::Size(48, 20);
-			this->tempo2Sobremesa->TabIndex = 32;
-			// 
-			// tempo1Sobremesa
-			// 
-			this->tempo1Sobremesa->Location = System::Drawing::Point(178, 23);
-			this->tempo1Sobremesa->Name = L"tempo1Sobremesa";
-			this->tempo1Sobremesa->Size = System::Drawing::Size(48, 20);
-			this->tempo1Sobremesa->TabIndex = 31;
-			// 
-			// label18
-			// 
-			this->label18->AutoSize = true;
-			this->label18->Location = System::Drawing::Point(6, 86);
-			this->label18->Name = L"label18";
-			this->label18->Size = System::Drawing::Size(47, 13);
-			this->label18->TabIndex = 22;
-			this->label18->Text = L"Preparar";
-			// 
-			// label19
-			// 
-			this->label19->AutoSize = true;
-			this->label19->Location = System::Drawing::Point(6, 30);
-			this->label19->Name = L"label19";
-			this->label19->Size = System::Drawing::Size(88, 13);
-			this->label19->TabIndex = 16;
-			this->label19->Text = L"Conferir Estoque ";
-			// 
-			// label20
-			// 
-			this->label20->AutoSize = true;
-			this->label20->Location = System::Drawing::Point(6, 114);
-			this->label20->Name = L"label20";
-			this->label20->Size = System::Drawing::Size(45, 13);
-			this->label20->TabIndex = 18;
-			this->label20->Text = L"Embalar";
-			// 
-			// label21
-			// 
-			this->label21->AutoSize = true;
-			this->label21->Location = System::Drawing::Point(6, 60);
-			this->label21->Name = L"label21";
-			this->label21->Size = System::Drawing::Size(105, 13);
-			this->label21->TabIndex = 20;
-			this->label21->Text = L"Separar Ingredientes";
-			// 
-			// label16
-			// 
-			this->label16->AutoSize = true;
-			this->label16->Location = System::Drawing::Point(263, 31);
-			this->label16->Name = L"label16";
-			this->label16->Size = System::Drawing::Size(35, 13);
-			this->label16->TabIndex = 35;
-			this->label16->Text = L"Nome";
 			// 
 			// shapeContainer1
 			// 
 			this->shapeContainer1->Location = System::Drawing::Point(0, 0);
 			this->shapeContainer1->Margin = System::Windows::Forms::Padding(0);
 			this->shapeContainer1->Name = L"shapeContainer1";
-			this->shapeContainer1->Shapes->AddRange(gcnew cli::array< Microsoft::VisualBasic::PowerPacks::Shape^  >(13) {this->Etapa4L2, 
-				this->Etapa3L2, this->Etapa2L2, this->rectangleShape6, this->Etapa1L2, this->rectangleShape4, this->rectangleShape3, this->rectangleShape2, 
-				this->rectangleShape1, this->Etapa4L1, this->Etapa3L1, this->Etapa2L1, this->Etapa1L1});
-			this->shapeContainer1->Size = System::Drawing::Size(920, 525);
+			this->shapeContainer1->Shapes->AddRange(gcnew cli::array< Microsoft::VisualBasic::PowerPacks::Shape^  >(8) {this->Etapa4L2, 
+				this->Etapa3L2, this->Etapa2L2, this->Etapa1L2, this->Etapa4L1, this->Etapa3L1, this->Etapa2L1, this->Etapa1L1});
+			this->shapeContainer1->Size = System::Drawing::Size(1199, 519);
 			this->shapeContainer1->TabIndex = 32;
 			this->shapeContainer1->TabStop = false;
 			// 
 			// Etapa4L2
 			// 
 			this->Etapa4L2->FillStyle = Microsoft::VisualBasic::PowerPacks::FillStyle::Solid;
-			this->Etapa4L2->Location = System::Drawing::Point(20, 265);
+			this->Etapa4L2->Location = System::Drawing::Point(262, 191);
 			this->Etapa4L2->Name = L"Etapa4L2";
-			this->Etapa4L2->Size = System::Drawing::Size(35, 25);
+			this->Etapa4L2->Size = System::Drawing::Size(35, 30);
 			// 
 			// Etapa3L2
 			// 
 			this->Etapa3L2->FillStyle = Microsoft::VisualBasic::PowerPacks::FillStyle::Solid;
-			this->Etapa3L2->Location = System::Drawing::Point(20, 235);
+			this->Etapa3L2->Location = System::Drawing::Point(262, 138);
 			this->Etapa3L2->Name = L"Etapa3L2";
 			this->Etapa3L2->Size = System::Drawing::Size(35, 25);
 			// 
 			// Etapa2L2
 			// 
 			this->Etapa2L2->FillStyle = Microsoft::VisualBasic::PowerPacks::FillStyle::Solid;
-			this->Etapa2L2->Location = System::Drawing::Point(20, 205);
+			this->Etapa2L2->Location = System::Drawing::Point(261, 86);
 			this->Etapa2L2->Name = L"Etapa2L2";
 			this->Etapa2L2->Size = System::Drawing::Size(35, 25);
-			// 
-			// rectangleShape6
-			// 
-			this->rectangleShape6->Location = System::Drawing::Point(440, 250);
-			this->rectangleShape6->Name = L"rectangleShape6";
-			this->rectangleShape6->Size = System::Drawing::Size(40, 25);
 			// 
 			// Etapa1L2
 			// 
 			this->Etapa1L2->FillStyle = Microsoft::VisualBasic::PowerPacks::FillStyle::Solid;
-			this->Etapa1L2->Location = System::Drawing::Point(20, 175);
+			this->Etapa1L2->Location = System::Drawing::Point(262, 47);
 			this->Etapa1L2->Name = L"Etapa1L2";
 			this->Etapa1L2->Size = System::Drawing::Size(35, 25);
-			// 
-			// rectangleShape4
-			// 
-			this->rectangleShape4->Location = System::Drawing::Point(443, 295);
-			this->rectangleShape4->Name = L"rectangleShape4";
-			this->rectangleShape4->Size = System::Drawing::Size(35, 25);
-			// 
-			// rectangleShape3
-			// 
-			this->rectangleShape3->Location = System::Drawing::Point(443, 265);
-			this->rectangleShape3->Name = L"rectangleShape3";
-			this->rectangleShape3->Size = System::Drawing::Size(35, 25);
-			// 
-			// rectangleShape2
-			// 
-			this->rectangleShape2->Location = System::Drawing::Point(443, 235);
-			this->rectangleShape2->Name = L"rectangleShape2";
-			this->rectangleShape2->Size = System::Drawing::Size(35, 25);
-			// 
-			// rectangleShape1
-			// 
-			this->rectangleShape1->FillStyle = Microsoft::VisualBasic::PowerPacks::FillStyle::Solid;
-			this->rectangleShape1->Location = System::Drawing::Point(443, 205);
-			this->rectangleShape1->Name = L"rectangleShape1";
-			this->rectangleShape1->Size = System::Drawing::Size(35, 25);
 			// 
 			// Etapa4L1
 			// 
 			this->Etapa4L1->FillStyle = Microsoft::VisualBasic::PowerPacks::FillStyle::Solid;
-			this->Etapa4L1->Location = System::Drawing::Point(20, 115);
+			this->Etapa4L1->Location = System::Drawing::Point(20, 193);
 			this->Etapa4L1->Name = L"Etapa4L1";
-			this->Etapa4L1->Size = System::Drawing::Size(35, 25);
+			this->Etapa4L1->Size = System::Drawing::Size(35, 28);
 			// 
 			// Etapa3L1
 			// 
 			this->Etapa3L1->FillStyle = Microsoft::VisualBasic::PowerPacks::FillStyle::Solid;
-			this->Etapa3L1->Location = System::Drawing::Point(20, 85);
+			this->Etapa3L1->Location = System::Drawing::Point(18, 137);
 			this->Etapa3L1->Name = L"Etapa3L1";
-			this->Etapa3L1->Size = System::Drawing::Size(35, 25);
+			this->Etapa3L1->Size = System::Drawing::Size(35, 30);
 			// 
 			// Etapa2L1
 			// 
 			this->Etapa2L1->FillStyle = Microsoft::VisualBasic::PowerPacks::FillStyle::Solid;
-			this->Etapa2L1->Location = System::Drawing::Point(20, 55);
+			this->Etapa2L1->Location = System::Drawing::Point(18, 89);
 			this->Etapa2L1->Name = L"Etapa2L1";
 			this->Etapa2L1->Size = System::Drawing::Size(35, 25);
 			// 
 			// Etapa1L1
 			// 
 			this->Etapa1L1->FillStyle = Microsoft::VisualBasic::PowerPacks::FillStyle::Solid;
-			this->Etapa1L1->Location = System::Drawing::Point(20, 25);
+			this->Etapa1L1->Location = System::Drawing::Point(18, 47);
 			this->Etapa1L1->Name = L"Etapa1L1";
 			this->Etapa1L1->Size = System::Drawing::Size(35, 25);
 			// 
 			// label2
 			// 
 			this->label2->AutoSize = true;
-			this->label2->Location = System::Drawing::Point(81, 38);
+			this->label2->Location = System::Drawing::Point(24, 33);
+			this->label2->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(41, 13);
+			this->label2->Size = System::Drawing::Size(53, 17);
 			this->label2->TabIndex = 27;
 			this->label2->Text = L"Etapa1";
 			// 
 			// label3
 			// 
 			this->label3->AutoSize = true;
-			this->label3->Location = System::Drawing::Point(81, 128);
+			this->label3->Location = System::Drawing::Point(23, 213);
+			this->label3->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(41, 13);
+			this->label3->Size = System::Drawing::Size(53, 17);
 			this->label3->TabIndex = 33;
 			this->label3->Text = L"Etapa4";
 			// 
 			// label5
 			// 
 			this->label5->AutoSize = true;
-			this->label5->Location = System::Drawing::Point(81, 68);
+			this->label5->Location = System::Drawing::Point(20, 86);
+			this->label5->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(41, 13);
+			this->label5->Size = System::Drawing::Size(53, 17);
 			this->label5->TabIndex = 34;
 			this->label5->Text = L"Etapa2";
 			// 
 			// label10
 			// 
 			this->label10->AutoSize = true;
-			this->label10->Location = System::Drawing::Point(81, 98);
+			this->label10->Location = System::Drawing::Point(20, 143);
+			this->label10->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label10->Name = L"label10";
-			this->label10->Size = System::Drawing::Size(41, 13);
+			this->label10->Size = System::Drawing::Size(53, 17);
 			this->label10->TabIndex = 35;
 			this->label10->Text = L"Etapa3";
 			// 
 			// label11
 			// 
 			this->label11->AutoSize = true;
-			this->label11->Location = System::Drawing::Point(81, 182);
+			this->label11->Location = System::Drawing::Point(348, 33);
+			this->label11->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label11->Name = L"label11";
-			this->label11->Size = System::Drawing::Size(41, 13);
+			this->label11->Size = System::Drawing::Size(53, 17);
 			this->label11->TabIndex = 36;
 			this->label11->Text = L"Etapa1";
 			// 
 			// label12
 			// 
 			this->label12->AutoSize = true;
-			this->label12->Location = System::Drawing::Point(81, 218);
+			this->label12->Location = System::Drawing::Point(348, 86);
+			this->label12->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label12->Name = L"label12";
-			this->label12->Size = System::Drawing::Size(41, 13);
+			this->label12->Size = System::Drawing::Size(53, 17);
 			this->label12->TabIndex = 37;
 			this->label12->Text = L"Etapa2";
 			// 
 			// label13
 			// 
 			this->label13->AutoSize = true;
-			this->label13->Location = System::Drawing::Point(81, 248);
+			this->label13->Location = System::Drawing::Point(348, 143);
+			this->label13->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label13->Name = L"label13";
-			this->label13->Size = System::Drawing::Size(41, 13);
+			this->label13->Size = System::Drawing::Size(53, 17);
 			this->label13->TabIndex = 38;
 			this->label13->Text = L"Etapa3";
 			// 
 			// label14
 			// 
 			this->label14->AutoSize = true;
-			this->label14->Location = System::Drawing::Point(81, 278);
+			this->label14->Location = System::Drawing::Point(348, 213);
+			this->label14->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label14->Name = L"label14";
-			this->label14->Size = System::Drawing::Size(41, 13);
+			this->label14->Size = System::Drawing::Size(53, 17);
 			this->label14->TabIndex = 39;
 			this->label14->Text = L"Etapa4";
 			// 
-			// groupBox7
+			// label1
 			// 
-			this->groupBox7->Controls->Add(this->label24);
-			this->groupBox7->Location = System::Drawing::Point(34, 339);
-			this->groupBox7->Name = L"groupBox7";
-			this->groupBox7->Size = System::Drawing::Size(343, 81);
-			this->groupBox7->TabIndex = 33;
-			this->groupBox7->TabStop = false;
-			this->groupBox7->Text = L"Linha1: Fila de Espera";
+			this->label1->AutoSize = true;
+			this->label1->Location = System::Drawing::Point(405, 246);
+			this->label1->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label1->Name = L"label1";
+			this->label1->Size = System::Drawing::Size(43, 17);
+			this->label1->TabIndex = 47;
+			this->label1->Text = L"Vazio";
 			// 
-			// label24
+			// label6
 			// 
-			this->label24->AutoSize = true;
-			this->label24->Location = System::Drawing::Point(6, 30);
-			this->label24->Name = L"label24";
-			this->label24->Size = System::Drawing::Size(335, 13);
-			this->label24->TabIndex = 16;
-			this->label24->Text = L"Colocar os itens que estão em espera na thread, não implementei isso";
+			this->label6->AutoSize = true;
+			this->label6->Location = System::Drawing::Point(405, 178);
+			this->label6->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label6->Name = L"label6";
+			this->label6->Size = System::Drawing::Size(43, 17);
+			this->label6->TabIndex = 46;
+			this->label6->Text = L"Vazio";
 			// 
-			// groupBox8
+			// label7
 			// 
-			this->groupBox8->Controls->Add(this->label23);
-			this->groupBox8->Location = System::Drawing::Point(34, 426);
-			this->groupBox8->Name = L"groupBox8";
-			this->groupBox8->Size = System::Drawing::Size(343, 81);
-			this->groupBox8->TabIndex = 34;
-			this->groupBox8->TabStop = false;
-			this->groupBox8->Text = L"Linha2: Fila de Espera";
+			this->label7->AutoSize = true;
+			this->label7->Location = System::Drawing::Point(405, 119);
+			this->label7->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label7->Name = L"label7";
+			this->label7->Size = System::Drawing::Size(43, 17);
+			this->label7->TabIndex = 45;
+			this->label7->Text = L"Vazio";
 			// 
-			// label23
+			// label8
 			// 
-			this->label23->AutoSize = true;
-			this->label23->Location = System::Drawing::Point(6, 30);
-			this->label23->Name = L"label23";
-			this->label23->Size = System::Drawing::Size(335, 13);
-			this->label23->TabIndex = 16;
-			this->label23->Text = L"Colocar os itens que estão em espera na thread, não implementei isso";
+			this->label8->AutoSize = true;
+			this->label8->Location = System::Drawing::Point(405, 63);
+			this->label8->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label8->Name = L"label8";
+			this->label8->Size = System::Drawing::Size(43, 17);
+			this->label8->TabIndex = 44;
+			this->label8->Text = L"Vazio";
 			// 
-			// xBurger
+			// label9
 			// 
-			this->xBurger->AutoSize = true;
-			this->xBurger->Location = System::Drawing::Point(7, 20);
-			this->xBurger->Name = L"xBurger";
-			this->xBurger->Size = System::Drawing::Size(72, 17);
-			this->xBurger->TabIndex = 0;
-			this->xBurger->TabStop = true;
-			this->xBurger->Text = L"X - Burger";
-			this->xBurger->UseVisualStyleBackColor = true;
+			this->label9->AutoSize = true;
+			this->label9->Location = System::Drawing::Point(90, 178);
+			this->label9->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label9->Name = L"label9";
+			this->label9->Size = System::Drawing::Size(43, 17);
+			this->label9->TabIndex = 43;
+			this->label9->Text = L"Vazio";
 			// 
-			// xTudo
+			// label25
 			// 
-			this->xTudo->AutoSize = true;
-			this->xTudo->Location = System::Drawing::Point(8, 66);
-			this->xTudo->Name = L"xTudo";
-			this->xTudo->Size = System::Drawing::Size(66, 17);
-			this->xTudo->TabIndex = 1;
-			this->xTudo->TabStop = true;
-			this->xTudo->Text = L"X - Tudo";
-			this->xTudo->UseVisualStyleBackColor = true;
+			this->label25->AutoSize = true;
+			this->label25->Location = System::Drawing::Point(90, 119);
+			this->label25->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label25->Name = L"label25";
+			this->label25->Size = System::Drawing::Size(43, 17);
+			this->label25->TabIndex = 42;
+			this->label25->Text = L"Vazio";
 			// 
-			// xVeg
+			// label30
 			// 
-			this->xVeg->AutoSize = true;
-			this->xVeg->Location = System::Drawing::Point(8, 89);
-			this->xVeg->Name = L"xVeg";
-			this->xVeg->Size = System::Drawing::Size(60, 17);
-			this->xVeg->TabIndex = 2;
-			this->xVeg->TabStop = true;
-			this->xVeg->Text = L"X - Veg";
-			this->xVeg->UseVisualStyleBackColor = true;
+			this->label30->AutoSize = true;
+			this->label30->Location = System::Drawing::Point(90, 246);
+			this->label30->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label30->Name = L"label30";
+			this->label30->Size = System::Drawing::Size(43, 17);
+			this->label30->TabIndex = 41;
+			this->label30->Text = L"Vazio";
 			// 
-			// xBacon
+			// label31
 			// 
-			this->xBacon->AutoSize = true;
-			this->xBacon->Location = System::Drawing::Point(8, 45);
-			this->xBacon->Name = L"xBacon";
-			this->xBacon->Size = System::Drawing::Size(72, 17);
-			this->xBacon->TabIndex = 3;
-			this->xBacon->TabStop = true;
-			this->xBacon->Text = L"X - Bacon";
-			this->xBacon->UseVisualStyleBackColor = true;
+			this->label31->AutoSize = true;
+			this->label31->Location = System::Drawing::Point(90, 63);
+			this->label31->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label31->Name = L"label31";
+			this->label31->Size = System::Drawing::Size(43, 17);
+			this->label31->TabIndex = 40;
+			this->label31->Text = L"Vazio";
 			// 
-			// groupBox9
+			// label32
 			// 
-			this->groupBox9->Controls->Add(this->queijo);
-			this->groupBox9->Controls->Add(this->soja);
-			this->groupBox9->Controls->Add(this->carne);
-			this->groupBox9->Controls->Add(this->bacon);
-			this->groupBox9->Location = System::Drawing::Point(140, 19);
-			this->groupBox9->Name = L"groupBox9";
-			this->groupBox9->Size = System::Drawing::Size(130, 120);
-			this->groupBox9->TabIndex = 33;
-			this->groupBox9->TabStop = false;
-			this->groupBox9->Text = L"Adicional:";
+			this->label32->AutoSize = true;
+			this->label32->Location = System::Drawing::Point(53, 2);
+			this->label32->Name = L"label32";
+			this->label32->Size = System::Drawing::Size(55, 17);
+			this->label32->TabIndex = 48;
+			this->label32->Text = L"Linha 1";
 			// 
-			// queijo
+			// label33
 			// 
-			this->queijo->AutoSize = true;
-			this->queijo->Location = System::Drawing::Point(8, 45);
-			this->queijo->Name = L"queijo";
-			this->queijo->Size = System::Drawing::Size(55, 17);
-			this->queijo->TabIndex = 3;
-			this->queijo->TabStop = true;
-			this->queijo->Text = L"Queijo";
-			this->queijo->UseVisualStyleBackColor = true;
-			// 
-			// soja
-			// 
-			this->soja->AutoSize = true;
-			this->soja->Location = System::Drawing::Point(8, 89);
-			this->soja->Name = L"soja";
-			this->soja->Size = System::Drawing::Size(107, 17);
-			this->soja->TabIndex = 2;
-			this->soja->TabStop = true;
-			this->soja->Text = L"Hamburguer Soja";
-			this->soja->UseVisualStyleBackColor = true;
-			// 
-			// carne
-			// 
-			this->carne->AutoSize = true;
-			this->carne->Location = System::Drawing::Point(8, 66);
-			this->carne->Name = L"carne";
-			this->carne->Size = System::Drawing::Size(114, 17);
-			this->carne->TabIndex = 1;
-			this->carne->TabStop = true;
-			this->carne->Text = L"Hamburguer Carne";
-			this->carne->UseVisualStyleBackColor = true;
-			// 
-			// bacon
-			// 
-			this->bacon->AutoSize = true;
-			this->bacon->Location = System::Drawing::Point(7, 20);
-			this->bacon->Name = L"bacon";
-			this->bacon->Size = System::Drawing::Size(56, 17);
-			this->bacon->TabIndex = 0;
-			this->bacon->TabStop = true;
-			this->bacon->Text = L"Bacon";
-			this->bacon->UseVisualStyleBackColor = true;
+			this->label33->AutoSize = true;
+			this->label33->Location = System::Drawing::Point(333, 2);
+			this->label33->Name = L"label33";
+			this->label33->Size = System::Drawing::Size(55, 17);
+			this->label33->TabIndex = 49;
+			this->label33->Text = L"Linha 2";
 			// 
 			// MyForm
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
+			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(920, 525);
-			this->Controls->Add(this->groupBox8);
-			this->Controls->Add(this->groupBox7);
+			this->ClientSize = System::Drawing::Size(1199, 519);
+			this->Controls->Add(this->label33);
+			this->Controls->Add(this->label32);
+			this->Controls->Add(this->label1);
+			this->Controls->Add(this->label6);
+			this->Controls->Add(this->label7);
+			this->Controls->Add(this->label8);
+			this->Controls->Add(this->label9);
+			this->Controls->Add(this->label25);
+			this->Controls->Add(this->label30);
+			this->Controls->Add(this->label31);
 			this->Controls->Add(this->label14);
 			this->Controls->Add(this->label13);
 			this->Controls->Add(this->label12);
@@ -938,26 +1080,27 @@ private: System::Windows::Forms::RadioButton^  bacon;
 			this->Controls->Add(this->groupBox5);
 			this->Controls->Add(this->groupBox4);
 			this->Controls->Add(this->shapeContainer1);
+			this->Margin = System::Windows::Forms::Padding(4);
 			this->Name = L"MyForm";
 			this->Text = L"Lanchonete Corujão";
 			this->groupBox4->ResumeLayout(false);
 			this->groupBox4->PerformLayout();
+			this->groupBox9->ResumeLayout(false);
+			this->groupBox9->PerformLayout();
 			this->groupBox1->ResumeLayout(false);
 			this->groupBox1->PerformLayout();
 			this->groupBox5->ResumeLayout(false);
 			this->groupBox5->PerformLayout();
-			this->groupBox2->ResumeLayout(false);
-			this->groupBox2->PerformLayout();
+			this->groupBox11->ResumeLayout(false);
+			this->groupBox11->PerformLayout();
+			this->groupBox10->ResumeLayout(false);
+			this->groupBox10->PerformLayout();
 			this->groupBox6->ResumeLayout(false);
 			this->groupBox6->PerformLayout();
+			this->groupBox2->ResumeLayout(false);
+			this->groupBox2->PerformLayout();
 			this->groupBox3->ResumeLayout(false);
 			this->groupBox3->PerformLayout();
-			this->groupBox7->ResumeLayout(false);
-			this->groupBox7->PerformLayout();
-			this->groupBox8->ResumeLayout(false);
-			this->groupBox8->PerformLayout();
-			this->groupBox9->ResumeLayout(false);
-			this->groupBox9->PerformLayout();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -969,10 +1112,13 @@ public:		void processo(string nome);
 public:		void UpdateRichText(String^ texto);
 public:		void setCor(int i, int n);
 public:		void resetCor(int i, int n);
+public:		void setNome(int i, int n, string nome);
+public:		void resetNome(int i, int n, string nome);
 
 private: System::Void botaoLanche_Click_1(System::Object^  sender, System::EventArgs^  e);
 private: System::Void botaoBebida_Click(System::Object^  sender, System::EventArgs^  e);
 private: System::Void botaoSobremesa_Click(System::Object^  sender, System::EventArgs^  e);
-		 
+
+
 };
 }

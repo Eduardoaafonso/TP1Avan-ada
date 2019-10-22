@@ -32,18 +32,23 @@ class Linha1
 private:
 	gcroot<MyForm^> myform;
 	int numLinha;
+	string nomePos;
+	HANDLE hSemaphore;
+	HANDLE hMutex;
+
 public:
 	Linha1(MyForm^ mform, int n);	 // Construtor
+	int getNumLinha();
 	void StartThread();
 	void WaitForExit();
 	static DWORD WINAPI ThreadFunc(LPVOID param);
 	void SetKillThread(bool kill);
 	bool GetKillThread();
-	void setItem(int tempo1, int tempo2, int tempo3, int tempo4, string nome);
-	void processo1(int tempo1);
-	void processo2(int tempo2);
-	void processo3(int tempo3);
-	void processo4(int tempo4);
+	void setItem(int tempo1, int tempo2, int tempo3, int tempo4, string nome, HANDLE hSemaphore, HANDLE hMutex);
+	void processo1(int tempo1, string nome);
+	void processo2(int tempo2, string nome);
+	void processo3(int tempo3, string nome);
+	void processo4(int tempo4, string nome);
 	void popItem();
 
 

@@ -28,3 +28,5 @@ Class TP1V1.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     UpdateRichText(String): PrivateScope, Public, HideBySig
     setCor(Int32, Int32): PrivateScope, Public, HideBySig
     resetCor(Int32, Int32): PrivateScope, Public, HideBySig
+    setNome(Int32, Int32, basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    resetNome(Int32, Int32, basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
