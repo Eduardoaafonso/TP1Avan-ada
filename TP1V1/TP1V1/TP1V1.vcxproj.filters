@@ -18,25 +18,10 @@
     <ClInclude Include="Itens.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Lanche.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Bebida.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Sobremesa.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="MyForm.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="ThreadLanche.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ThreadBebida.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ThreadSobremesa.h">
+    <ClInclude Include="Linha1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -44,28 +29,13 @@
     <ClCompile Include="Itens.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Lanche.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Bebida.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Sobremesa.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="MyForm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ThreadLanche.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ThreadBebida.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ThreadSobremesa.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Linha1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

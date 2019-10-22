@@ -72,29 +72,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Bebida.h" />
-    <ClInclude Include="ThreadSobremesa.h" />
-    <ClInclude Include="ThreadBebida.h" />
-    <ClInclude Include="ThreadLanche.h" />
+    <ClInclude Include="Linha1.h" />
     <ClInclude Include="Itens.h" />
-    <ClInclude Include="Lanche.h" />
     <ClInclude Include="MyForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
-    <ClInclude Include="Sobremesa.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Bebida.cpp" />
     <ClCompile Include="Itens.cpp" />
-    <ClCompile Include="Lanche.cpp" />
     <ClCompile Include="MyForm.cpp" />
-    <ClCompile Include="Sobremesa.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="ThreadSobremesa.cpp" />
-    <ClCompile Include="ThreadBebida.cpp" />
-    <ClCompile Include="ThreadLanche.cpp" />
+    <ClCompile Include="Linha1.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\VBPowerPacks\v10.0\Microsoft.VisualBasic.PowerPacks.Vs.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />

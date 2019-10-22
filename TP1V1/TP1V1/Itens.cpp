@@ -1,10 +1,11 @@
 #include "Itens.h"
 
-Itens::Itens(int tempo1, int tempo2, int tempo3, int tempo4){
+Itens::Itens(int tempo1, int tempo2, int tempo3, int tempo4, string nome){
 	this->tempoEtapa1 = tempo1;
 	this->tempoEtapa2 = tempo2;
 	this->tempoEtapa3 = tempo3;
 	this->tempoEtapa4 = tempo4;
+	this->nome = nome;
 }
 
 Itens::~Itens(){
@@ -64,3 +65,6 @@ bool Itens::getPronto(){
 	return this->pronto;
 }
 
+string Itens::getNome(){
+	return this->nome;
+}
