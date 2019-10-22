@@ -24,7 +24,7 @@ HANDLE hMutex;
 
 int tempo1, tempo2, tempo3, tempo4;
 
-
+//Unico semaforo
 System::Void MyForm::botaoLanche_Click_1(System::Object^  sender, System::EventArgs^  e){
 
 
@@ -76,7 +76,7 @@ System::Void MyForm::botaoLanche_Click_1(System::Object^  sender, System::EventA
 	tempo3 = tempo3*1000;
 	tempo4 = tempo4*1000;
 
-	if ((n1Lanche + nSobremesa) >= 3){
+	if ((n1Lanche + nSobremesa) >= 3){ //FILA SIZE*********
 		if((n2Lanche+nBebida) >= 3){
 			MessageBox::Show("Fila cheia! Aguarde.","Notificação", MessageBoxButtons::OK,MessageBoxIcon::Asterisk);
 		}

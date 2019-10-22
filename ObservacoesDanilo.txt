@@ -1,0 +1,5 @@
+Orientações Danilo
+
+1) Total de cada linha
+2) Rever fila e mostrar espera
+3) Revisar MUTEX e SEMAFORE (MYFORM)

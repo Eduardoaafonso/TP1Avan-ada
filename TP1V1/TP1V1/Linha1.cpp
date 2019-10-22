@@ -8,6 +8,7 @@ Linha1::Linha1(MyForm^ mform, int n){
 	this->m_hThread = NULL;
 	this->m_ThreadId = 0;
 	this->KillThread = false;
+
 }
 
 void Linha1::setItem(int tempo1, int tempo2, int tempo3, int tempo4, string nome, HANDLE hSemaphoreParam, HANDLE hMutexParam){
@@ -16,12 +17,12 @@ void Linha1::setItem(int tempo1, int tempo2, int tempo3, int tempo4, string nome
 	this->nomePos = nome;
 	hSemaphore = hSemaphoreParam;
 	hMutex = hMutexParam;
-
+	//CRIAR FORA*************************
 	hSemaphore = CreateSemaphore(
 		NULL, //Atributo de segurança
 		   3, //Contador inicial
 		   3, //Valor máximo do contaodr
-		NULL //Nome do semáforo
+		"Semaforo" //Nome do semáforo
 		);
 
 	hMutex = CreateMutex(
