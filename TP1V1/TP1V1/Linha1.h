@@ -50,6 +50,7 @@ public:
 	void processo3(int tempo3, string nome);
 	void processo4(int tempo4, string nome);
 	void popItem();
+	int getFila();
 
 
 protected:

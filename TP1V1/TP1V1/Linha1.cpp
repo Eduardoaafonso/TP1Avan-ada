@@ -18,6 +18,7 @@ void Linha1::setItem(int tempo1, int tempo2, int tempo3, int tempo4, string nome
 	hSemaphore = hSemaphoreParam;
 	hMutex = hMutexParam;
 	//CRIAR FORA*************************
+	/*
 	hSemaphore = CreateSemaphore(
 		NULL, //Atributo de segurança
 		   3, //Contador inicial
@@ -29,7 +30,7 @@ void Linha1::setItem(int tempo1, int tempo2, int tempo3, int tempo4, string nome
 		NULL, //Atributo de segurança
 		FALSE, //propriedade
 		NULL //nome
-	);
+	);*/
 }
 
 int Linha1::getNumLinha(){
@@ -46,6 +47,7 @@ void Linha1::StartThread()
 	}
 	this->KillThread = false;
 }
+
 void Linha1::WaitForExit() // Espera fim da thread
 {
 	WaitForSingleObject(m_hThread, INFINITE);
@@ -157,4 +159,8 @@ void Linha1::popItem(){
 	this->myform->resetCor(4, getNumLinha());
 	this->myform->resetNome(4, getNumLinha(), "Vazio");
 	linha1.pop();
+}
+
+int Linha1::getFila(){
+	return linha1.size();
 }

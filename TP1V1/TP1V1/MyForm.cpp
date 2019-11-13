@@ -76,12 +76,11 @@ System::Void MyForm::botaoLanche_Click_1(System::Object^  sender, System::EventA
 	tempo3 = tempo3*1000;
 	tempo4 = tempo4*1000;
 
-	if ((n1Lanche + nSobremesa) >= 3){ //FILA SIZE*********
-		if((n2Lanche+nBebida) >= 3){
-			MessageBox::Show("Fila cheia! Aguarde.","Notificação", MessageBoxButtons::OK,MessageBoxIcon::Asterisk);
-		}
+	if((linha1->getFila() >= 3) && (linha2->getFila() >=3)){
+		MessageBox::Show("Fila cheia! Aguarde.","Notificação", MessageBoxButtons::OK,MessageBoxIcon::Asterisk);
 	}
-	if((n1Lanche+nSobremesa) <= (n2Lanche+nBebida)){
+
+	if(linha1->getFila() < linha2->getFila()){
 		linha1->setItem(tempo1, tempo2, tempo3, tempo4, lanche, hSemaphore, hMutex);
 		linha1->StartThread();
 
@@ -150,7 +149,7 @@ System::Void MyForm::botaoBebida_Click(System::Object^  sender, System::EventArg
 	tempo3 = tempo3*1000;
 	tempo4 = tempo4*1000;
 	
-	if ((nBebida + n2Lanche) >= 3){
+	if (linha2->getFila() >= 3){
 		MessageBox::Show("Fila cheia! Aguarde.","Notificação", MessageBoxButtons::OK,MessageBoxIcon::Asterisk);
 	}
 	else{
@@ -204,7 +203,7 @@ System::Void MyForm::botaoSobremesa_Click(System::Object^  sender, System::Event
 	tempo3 = tempo3*1000;
 	tempo4 = tempo4*1000;
 
-	if ((n1Lanche + nSobremesa) >= 3){
+	if (linha1->getFila() >= 3){
 		MessageBox::Show("Fila cheia! Aguarde.","Notificação", MessageBoxButtons::OK,MessageBoxIcon::Asterisk);
 	}
 	else{

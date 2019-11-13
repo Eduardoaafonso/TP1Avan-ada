@@ -1,29 +1,9 @@
-﻿Build started 22/10/2019 15:43:04.
-     1>Project "E:\Diretorio\UFLA\8_periodo\Automaçao avançada\TP1-git\TP1V1\TP1V1\TP1V1.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Microsoft.VisualBasic.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\VBPowerPacks\v10.0\Microsoft.VisualBasic.PowerPacks.Vs.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Linha1.cpp MyForm.cpp
-         Linha1.cpp
-         MyForm.cpp
-     1>MyForm.cpp(58): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
-     1>MyForm.cpp(62): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
-     1>MyForm.cpp(66): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
-     1>MyForm.cpp(70): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
-     1>MyForm.cpp(132): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
-     1>MyForm.cpp(136): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
-     1>MyForm.cpp(140): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
-     1>MyForm.cpp(144): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
-     1>MyForm.cpp(194): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
-     1>MyForm.cpp(198): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
-         Generating Code...
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Diretorio\UFLA\8_periodo\Automaçao avançada\TP1-git\TP1V1\Debug\TP1V1.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\TP1V1.MyForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Diretorio\UFLA\8_periodo\Automaçao avançada\TP1-git\TP1V1\Debug\TP1V1.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\Itens.obj
-         Debug\MyForm.obj
-         Debug\main.obj
-         Debug\Linha1.obj
-         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
-     1>LINK : fatal error LNK1104: cannot open file 'E:\Diretorio\UFLA\8_periodo\Automaçao avançada\TP1-git\TP1V1\Debug\TP1V1.exe'
-     1>Done Building Project "E:\Diretorio\UFLA\8_periodo\Automaçao avançada\TP1-git\TP1V1\TP1V1\TP1V1.vcxproj" (Build target(s)) -- FAILED.
+﻿Build started 11/11/2019 15:06:03.
+     1>Project "C:\Users\Fernando Elias\Documents\TP1_Avancada\TP1V1\TP1V1\TP1V1.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         TP1V1.vcxproj -> C:\Users\Fernando Elias\Documents\TP1_Avancada\TP1V1\Debug\TP1V1.exe
+     1>Done Building Project "C:\Users\Fernando Elias\Documents\TP1_Avancada\TP1V1\TP1V1\TP1V1.vcxproj" (Build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:04.73
+Time Elapsed 00:00:00.36
